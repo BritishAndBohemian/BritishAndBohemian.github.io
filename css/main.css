@@ -1,0 +1,1406 @@
+/* ? Defualt elements*/
+
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+    overflow  : hidden;
+}
+
+body {
+    font-family: "Lato";
+    color      : white;
+    overflow   : hidden 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato";
+    padding    : 5px;
+}
+
+hr {
+    width : 50%;
+    margin: 2rem auto;
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src        : url("../font/lato/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Century Gothic";
+    src        : url("../fonts/CG.ttf");
+}
+
+
+@font-face {
+    font-family: "Copperplate Gothic";
+    src        : url("../font/Copperplate-Gothic-Std-33-BC.woff");
+}
+
+/* ! CSS Body Structure Culture Cover Default */
+
+.CultureCover {
+    height            : 100vh;
+    margin            : auto auto;
+    display           : grid;
+    grid-template-rows: 37% 11% 70%;
+    background-image  : url(../img/2.jpg);
+    background-size   : contain;
+}
+
+.topDiv {
+    justify-content: center;
+    display        : flex;
+
+}
+
+.middleDiv {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+}
+.middleDiv h1{
+    font-family: "Copperplate Gothic";
+    letter-spacing: 25px;
+    font-size: 1em;
+    text-align: center;
+    padding-left: 10%;
+}
+.middleDiv a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+.middleDiv img{
+    width: 50px;
+    height: auto;
+}
+
+.bottomDiv {
+    display: grid;
+    grid-template-rows: 60% 30% ;
+}
+
+.bottomDiv div:nth-child(1) h2{
+    font-family: "Copperplate Gothic";
+    letter-spacing: 25px;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.bottomDiv div:nth-child(2){
+margin: 0 auto;
+height: 80px;
+width: 70%;
+left: 10%;
+padding: 0.2rem;
+text-align: center;
+border: 0.5px black solid;
+}
+
+.bottomDiv div:nth-child(2) h3{
+    font-size: 0.5em;
+    letter-spacing: 0.8rem;
+    line-height: 1rem;
+}
+
+.bottomDiv div:nth-child(2) h4{
+    font-size: 0.6em;
+    letter-spacing: 0.5rem;
+    line-height: 1rem;
+}
+
+
+/* ! Body Main CSS Structure */
+
+.MainBody {
+    background: #3E5151;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #DECBA4, #3E5151);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #DECBA4, #3E5151);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* ! Culture Navigation Bar*/
+/*Navbar */
+/*________ */
+
+
+/*Sticky Attribute Makes Things stick at the top*/
+
+.sticky {
+    position: fixed;
+    top     : 0;
+}
+
+/*Blur Any Background Element*/
+
+.blur {
+    background     : rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+}
+
+.NavContainer {
+    width           : 100%;
+    background-color: transparent;
+    z-index         : 1000;
+    display         : flex;
+    justify-content : center;
+}
+
+.NavOuter {
+    width           : 50%;
+    margin          : auto;
+    height          : 50px;
+    padding         : 0;
+    background-color: #FFFFFF;
+    border-style    : inset;
+    border          : 1px solid #FFFFFF;
+    border-radius   : 0 0 8px 8px;
+}
+
+.NavBody {
+    margin          : auto;
+    border-radius   : 60px;
+    width           : 100%;
+    height          : 90%;
+    padding         : 0;
+    background-color: black;
+    border          : 0.5px solid white;
+    border-radius   : 0 0 7px 7px;
+}
+
+.Badge {
+    /*  Always remeber that to align the text of an anchor tag inside a division set the parents text align to center! */
+    text-align     : center;
+    height         : 100%;
+    width          : 99%;
+    position       : relative;
+    display        : flex;
+    justify-content: center;
+    line-height    : 1px;
+    padding-top    : 10px;
+    padding-left   : 25px;
+}
+
+.Logo {
+    text-decoration: none;
+    text-transform : uppercase;
+    color          : white;
+    letter-spacing : 20px;
+    font-family    : "Century Gothic";
+    font-size      : 0.5em;
+    text-align     : center;
+    display        : inline-block;
+    margin         : 0.6px auto;
+}
+
+.btn {
+    width              : 50px;
+    height             : 50px;
+    border             : 1px solid white;
+    border-radius      : 100%;
+    background-color   : black;
+    border-bottom-style: outset;
+    position           : absolute;
+    top                : 30%;
+    left               : 45%;
+}
+
+.btn a {
+    display        : flex;
+    width          : 100%;
+    height         : 100%;
+    justify-content: center;
+    padding        : 12px;
+}
+
+.btn img {
+    width : 20px;
+    height: auto;
+}
+
+.NavbarSmallBodyBottom {
+    position: fixed;
+    bottom  : 0;
+    left    : 0;
+    width   : 100%;
+    padding : 0;
+    margin  : 0;
+}
+
+/*Navbar End*/
+/*input*/
+/*________________*/
+
+.frmCulture {
+    height               : 10vh;
+    width                : 100%;
+    background-color     : transparent;
+    color                : black;
+    display              : block;
+    margin               : auto;
+    display              : grid;
+    grid-template-columns: 80% 20.0%;
+}
+
+.frmbody {
+    background-color: black;
+    position        : fixed;
+    bottom          : 0;
+    left            : 0;
+    height          : 9vh;
+    width           : 100%;
+    padding         : 5px;
+}
+
+/* Input Form*/
+
+.cultureinput {
+    height          : 5vh;
+    width           : 100%;
+    padding         : 12px 5px;
+    margin          : 0;
+    height          : 7vh;
+    box-sizing      : border-box;
+    background-color: transparent;
+    color           : white;
+    border-left     : none;
+    border-right    : none;
+    border-top      : none;
+    border-bottom   : white soild 1px;
+    text-decoration : none;
+}
+
+.frmbody button {
+    text-decoration : none;
+    height          : 7vh;
+    background-color: transparent;
+    text-transform  : uppercase;
+    color           : white;
+}
+
+/*End*/
+/*______________________*/
+/*Messages*/
+/*________________*/
+
+.messagebody {
+    height: 80vh;
+    margin: 2rem;
+}
+
+.Message {
+    font-size : 15px;
+    text-align: left;
+}
+
+.messages {
+    height: 90vh;
+    width : 100%;
+}
+
+.Username {
+    text-align    : center;
+    text-transform: uppercase;
+    font-size     : 25px;
+    letter-spacing: 10px;
+    font-weight   : 600;
+    margin        : 3rem 0;
+}
+
+.Username {}
+
+.Username span {
+    font-weight: 100;
+    font-size  : 20px;
+}
+
+/*Classes*/
+/*________________*/
+
+.row::after {
+    content: "";
+    clear  : both;
+    display: table;
+}
+
+[class*="col-"] {
+    float  : left;
+    padding: 15px;
+}
+
+/*Messages*/
+/*________________*/
+/*Header*/
+/*________________*/
+
+.header {
+    background-color: black;
+    color           : #ffffff;
+    padding         : 15px;
+    text-transform  : uppercase;
+    font-size       : 8px;
+    letter-spacing  : 5px;
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    font-weight     : 200;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin         : 0;
+    padding        : 0;
+}
+
+.menu li {
+    padding         : 8px;
+    margin-bottom   : 7px;
+    background-color: #33b5e5;
+    color           : #ffffff;
+    box-shadow      : 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.aside {
+    background-color: #33b5e5;
+    padding         : 15px;
+    color           : #ffffff;
+    text-align      : center;
+    font-size       : 14px;
+    box-shadow      : 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.footer {
+    background-color: #0099cc;
+    color           : #ffffff;
+    text-align      : center;
+    font-size       : 12px;
+    padding         : 15px;
+}
+
+/*User Image */
+
+.divimg {
+    height: 150px;
+}
+
+.Img {
+    border-radius      : 100%;
+    background-color   : black;
+    display            : block;
+    margin             : auto;
+    height             : 150px;
+    width              : 150px;
+    background-image   : url("../../../../Culture - Official Aesthetic/Mobile Site Beta 1/Culture Mobile Template Website/img/asian-woman-with-tattoos-3565370.jpg");
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}
+
+.h1title {
+    display    : block;
+    margin     : 0;
+    font-weight: 500;
+}
+
+/* For mobile phones: */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+#messages {
+    list-style-type: none;
+    margin         : 0;
+    padding        : 0;
+}
+
+#messages li {
+    padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+    background: #eee;
+}
+
+.Content {
+    width  : 100%;
+    padding: 5px;
+    margin : 0;
+    height : 1000px;
+}
+
+.Information {
+    margin : 1rem 0;
+    padding: 5px;
+}
+
+.ProfileImage {
+    border-radius   : 100%;
+    border          : black;
+    height          : 200px;
+    width           : 200px;
+    margin          : auto;
+    background-color: white;
+}
+
+.NameAndShortText {
+    width           : 95%;
+    background-color: white;
+    height          : 60px;
+    margin          : 5rem auto;
+    border          : black 1px solid;
+    box-shadow      : 1px 1px 7px 1px #0000004d;
+}
+
+.bg-TransBlack {
+    background-color: #000000cc;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    height : 100%;
+}
+
+ul {
+    display        : block;
+    list-style-type: no;
+    height         : 100%;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: White;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: White;
+}
+
+::placeholder {
+    color         : White;
+    font-size     : 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align    : center;
+}
+
+/*Color Templates */
+/*_________________*/
+
+.bg-BabyBlue {
+    background-color: #4a98dd;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-White {
+    background-color: white;
+}
+
+.bg-black a {
+    color: white;
+}
+
+.bg-White a {
+    color: black;
+}
+
+.bg-Rosey {
+    background-color: #cf912a;
+    color           : red;
+}
+
+.bg-Pink {
+    background-color: thistle;
+    color           : white;
+}
+
+.bg-sky {
+    background-color: #78adc5;
+}
+
+.bg-Eats {
+    background-color: #ff481b;
+    color           : white;
+}
+
+.top-Border {
+    border-top: 1px solid white;
+}
+
+.Transparent {
+    background-color: transparent;
+}
+
+.bgLight {
+    background-color: white;
+}
+
+.bgBrown {
+    background-color: #664738;
+}
+
+/* Buttons______________________ */
+
+.BBButton {
+    border          : black;
+    border-radius   : 15px;
+    padding         : 5px 10px;
+    float           : right;
+    background-color: transparent;
+}
+
+.BBButton img {
+    width : 25px;
+    height: 25px;
+}
+
+.buttonMusicPlayer {
+    background-color   : transparent;
+    /* Green */
+    border             : none;
+    color              : black;
+    text-align         : center;
+    text-decoration    : none;
+    transition-duration: 0.4s;
+    cursor             : pointer;
+    margin             : 0;
+    width              : 100%;
+    height             : 100%;
+}
+
+/*Old code 
+
+.List {
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.ListItemLogo {
+    background-color: white;
+    width: 60%;
+    margin-left: 50px;
+}
+
+.ListItemMenu {
+    width: 10%;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.NavbarSmallBodyBadge {
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.Navbar-Small {
+    width: 100%;
+    padding: 1px;
+}
+*/
+/*Old code */
+/* Navbar_____________________ */
+/* Parallax_____________________ */
+
+.parallax {
+    /* The image used */
+    background-image     : url("../Images/pexels-wherbson-rodrigues-4673418.jpg");
+    /* Set a specific height */
+    min-height           : 80vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position  : center;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+}
+
+/*MusicItem */
+/*________ */
+
+.List {
+    background-color: transparent;
+    width           : 90%;
+    margin          : 0 auto;
+}
+
+.List ul {
+    width: 100%;
+}
+
+.List li {
+    margin: 1rem 0;
+}
+
+.listItem {
+    width : 100%;
+    border: white 1px solid;
+    height: 50px;
+}
+
+.listItem div:nth-child(1) {
+    background-color: white;
+    width           : 20%;
+    height          : 100%;
+    float           : left;
+}
+
+.listItem div:nth-child(2) {
+    background-color: ;
+    width           : 70%;
+    height          : 100%;
+    display         : inline-block;
+    padding         : 0 8px;
+}
+
+.listItem img {
+    height: auto;
+    width : 100%;
+}
+
+.listItem h1 {
+    display       : block;
+    color         : white;
+    font-size     : 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family   : "Lato Light";
+    padding-top   : 8px;
+}
+
+.listItem h4 {
+    display       : block;
+    color         : white;
+    font-size     : 9px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style    : bold;
+    font-family   : "Lato Light";
+    padding-top   : 0;
+}
+
+/*MusicItem End */
+/*________ */
+/* Navbar_____________________ */
+
+.ButtonBlank {
+    background-color: transparent;
+    width           : 100%;
+    height          : 100%;
+    border          : none;
+    appearance      : none;
+}
+
+.Shadowdefault {
+    box-shadow: 0 0 2px 1px #00000047;
+}
+
+.Image {
+    width : 100%;
+    height: auto;
+}
+
+.ImageSmallArtwork {
+    width        : 100%;
+    height       : 100%;
+    border-radius: 50%;
+}
+
+/* SearchBar */
+
+.SearchBar {
+    width           : 95%;
+    background-color: #fdfffc;
+    height          : 200px;
+    padding         : 0;
+    margin          : 5rem auto 0;
+    background-image: url("../../../../Culture - Official Aesthetic/Mobile Site Beta 1/Culture Mobile Template Website/Images/white-capsules-on-yellow-background-3683056.jpg");
+    background-size : contain;
+}
+
+.MainOuter {
+    width     : 100%;
+    margin-top: 5rem;
+}
+
+.MainStory {
+    width           : 90%;
+    height          : 600px;
+    margin          : 5rem auto;
+    background-color: transparent;
+}
+
+h2 {
+    font-size  : 15px;
+    font-weight: Bold;
+    padding    : 5px 10px;
+    font-family: "Montserrat";
+}
+
+.bg-pinksky {
+    background-color: #fb004bcc;
+}
+
+p {
+    font-size  : 15px;
+    font-weight: light;
+    padding    : 5px 10px;
+    font-family: "Montserrat";
+}
+
+ul {
+    list-style-type : none;
+    margin          : 0;
+    padding         : 0;
+    overflow        : hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display        : block;
+    color          : white;
+    text-align     : center;
+    padding        : 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.SearchbarInput {
+    margin: 0;
+}
+
+.blur {
+    background     : rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+/* Headline Cards */
+
+.Headlines {
+    height : 800px;
+    padding: 5px;
+    margin : 1rem auto;
+    width  : 100%;
+}
+
+.HeadlinesInner {
+    width     : 100%;
+    height    : 100%;
+    box-shadow: 0 0 6px 1px #0000002b;
+    background: #fdfffc;
+    padding   : 0;
+    z-index   : 3;
+    margin    : 0;
+}
+
+.HeadlinesHeader {
+    font-weight     : 100;
+    font-size       : 0.8rem;
+    letter-spacing  : 10px;
+    width           : 200px;
+    padding         : 10px 7px;
+    color           : white;
+    border          : black;
+    text-align      : center;
+    background-color: black;
+    position        : relative;
+    top             : 20px;
+    left            : 30px;
+    font-family     : "Century Gothic";
+}
+
+.Stories {
+    width           : 100%;
+    padding         : 5px;
+    height          : 100%;
+    background-color: transparent;
+}
+
+.ImageStory {
+    background-color: white;
+    border-radius   : 33px;
+}
+
+.StoryP {
+    font-size: 2rem;
+    padding  : 10px;
+    color    : white;
+}
+
+.ButtonView {
+    margin          : 1rem auto;
+    width           : 95%;
+    background-color: black;
+    padding         : 0;
+    height          : 30px;
+    display         : contents;
+}
+
+.ButtonViewInner {
+    width           : 30%;
+    height          : 100%;
+    background-color: #e71d36;
+    float           : left;
+    padding         : 5px;
+    margin          : 0;
+}
+
+.ButtonViewInnerSecond {
+    float           : left;
+    width           : 70%;
+    height          : 100%;
+    padding         : 5px;
+    margin          : 0;
+    background-color: transparent;
+    border-radius   : 33px;
+}
+
+.Gallery {
+    width : 95%;
+    margin: 2 rem auto;
+}
+
+/* PreviewCardTall
+___________________________________ */
+
+.PreviewCardTall {
+    width           : 100%;
+    background-color: black;
+    padding         : 5px;
+    margin          : 1rem auto;
+}
+
+.PreviewCardTallBody {
+    padding         : 5px;
+    height          : 100%;
+    width           : 100%;
+    background-color: white;
+}
+
+.PreviewCardTallImage {
+    width           : 100%;
+    padding         : 5px;
+    margin          : auto;
+    background-color: transparent;
+}
+
+#ImageOne {
+    background-image: url("../../../../Culture - Official Aesthetic/Mobile Site Beta 1/Culture Mobile Template Website/Images/alex-blajan-6ozhV5b9ims-unsplash.jpg");
+    background-size : contain;
+}
+
+#ImageTwo {
+    background-image: url("../../../../Culture - Official Aesthetic/Mobile Site Beta 1/Culture Mobile Template Website/Images/desmond-lingard-3G-EIUALJII-unsplash.jpg");
+    background-size : contain;
+}
+
+#ImageThree {
+    background-image: url("../../../../Culture - Official Aesthetic/Mobile Site Beta 1/Culture Mobile Template Website/Images/desmond-lingard-y4d30i4elUA-unsplash.jpg");
+    background-size : contain;
+}
+
+.PreviewCardTallText {
+    width           : 100%;
+    padding         : 5px;
+    height          : 40%;
+    margin          : 5px 0;
+    background-color: white;
+}
+
+.PreviewCardTallTexth4 {
+    padding       : 5px;
+    text-transform: uppercase;
+    margin        : 15px 0;
+    width         : 100%;
+}
+
+.PreviewCardTallinformation {
+    padding       : 5px;
+    text-transform: uppercase;
+    margin        : 15px 0;
+    width         : 100%;
+}
+
+.PreviewCardTallTextp {
+    padding: 5px;
+    margin : 15px 0;
+}
+
+.PreviewCardTallButton {
+    width           : 100%;
+    padding         : 5px;
+    height          : 60px;
+    margin          : 5px 0;
+    background-color: transparent;
+}
+
+.PreviewCardTalla {
+    text-align      : center;
+    text-decoration : none;
+    display         : block;
+    width           : 100%;
+    height          : 100%;
+    background-color: transparent;
+    text-justify    : auto;
+    padding-top     : 10px;
+    font-size       : 15px;
+    text-transform  : uppercase;
+    letter-spacing  : 5px;
+    border          : 1px solid white;
+    background-color: black;
+    color           : white;
+}
+
+.PreviewCardTalla:hover {
+    background-color: white;
+    color           : black;
+}
+
+/* PreviewCardTinyHouse
+___________________________________ */
+
+.PreviewCardTinyHouseL {
+    text-align      : center;
+    text-decoration : none;
+    float           : left;
+    width           : 49%;
+    height          : 100%;
+    background-color: transparent;
+    text-justify    : auto;
+    padding-top     : 10px;
+    font-size       : 15px;
+    text-transform  : uppercase;
+    letter-spacing  : 5px;
+    border          : 1px solid white;
+    background-color: black;
+    color           : white;
+    margin          : 1px;
+}
+
+.PreviewCardTinyHouseR {
+    text-align      : center;
+    text-decoration : none;
+    float           : right;
+    width           : 49%;
+    height          : 100%;
+    background-color: transparent;
+    text-justify    : auto;
+    padding-top     : 10px;
+    font-size       : 15px;
+    text-transform  : uppercase;
+    letter-spacing  : 5px;
+    border          : 1px solid white;
+    background-color: black;
+    color           : white;
+    margin          : 1px;
+}
+
+/*RecentPostCardSmall*/
+
+.RecentPostCardSmall {
+    height: 250px;
+    border: 1px white solid;
+    width : 95%;
+    margin: 4rem auto;
+}
+
+.RecentPostCardSmallImage {
+    background-image   : url("../Images/cardsmallimg/image.png");
+    background-size    : contain;
+    background-position: center;
+    height             : 60%;
+    width              : 100%;
+}
+
+.RecentPostCardSmallImage img {
+    width : 100%;
+    height: auto;
+}
+
+.RecentPostCardSmallTextBody {
+    height: 10%;
+}
+
+/*RecentPostCardSmall*/
+/* VideoCard
+___________________________________ */
+
+.VideoCard {
+    width           : 95%;
+    margin          : 2rem auto;
+    background-color: #e71d36;
+}
+
+.Video {
+    width           : 100%;
+    height          : 200px;
+    background-color: black;
+    margin          : 0;
+    padding         : 0;
+}
+
+.VideoText {
+    margin: 1rem 0;
+}
+
+.VideoTexth2 {
+    text-transform: uppercase;
+    font-weight   : 200;
+    color         : white;
+}
+
+.VideoTextp {
+    font-weight: 100;
+    font-weight: 200;
+    color      : white;
+}
+
+/* OrderMenu
+___________________________________ */
+
+.OrderMenuOuterBody {
+    width           : 98%;
+    background-color: violet;
+    margin          : 20px auto;
+    height          : 800px;
+}
+
+.OrderMenuBody {
+    height          : 100%;
+    width           : 100%;
+    background-color: black;
+}
+
+.OrderMenuCard {
+    display         : inline-block;
+    margin-left     : 5px;
+    margin-top      : 5px;
+    height          : 300px;
+    width           : 48%;
+    background-color: white;
+}
+
+.CardSmallItems {
+    display         : inline-block;
+    width           : 100%;
+    background-color: wheat;
+}
+
+/* MusicPlayerBody
+___________________________________ */
+
+.MusicPlayerBodyOuter {
+    width           : 95%;
+    height          : 300px;
+    margin          : 1rem auto;
+    background-color: ;
+    box-shadow      : 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.MusicPlayerBodyInner {
+    padding         : 5px;
+    margin-top      : 0.2rem;
+    height          : 100%;
+    background-color: turquoise;
+    background-image: url("../../../../Culture - Official Aesthetic/Mobile Site Beta 1/Culture Mobile Template Website/Images/Screenshot_20200525-012905.jpg");
+    background-size : contain;
+}
+
+.Player {
+    position: relative;
+    top     : 80%;
+    height  : 50px;
+}
+
+.PlayerControls {
+    width: 100%;
+}
+
+.controls {
+    font-family    : "Century Gothic", sans-serif;
+    font-size      : 10px;
+    line-height    : 18px;
+    color          : white;
+    display        : flex;
+    flex-grow      : 1;
+    justify-content: space-between;
+    align-items    : center;
+    margin-left    : 15px;
+    margin-right   : 15px;
+    outline        : none;
+}
+
+.PlayPause {
+    background-color: teal;
+    width           : 15%;
+    height          : 100%;
+    margin          : 2rem;
+}
+
+/* MusicPlayerBody End
+___________________________________ */
+/*ImageCardTop
+___________________________________ */
+
+.ImageCardSmall {
+    width           : 95%;
+    height          : 250px;
+    margin          : 2rem auto 3rem;
+    background-color: transparent;
+    border          : 1px white solid;
+}
+
+.ImageCardSmallDivTop {
+    width           : 100%;
+    background-color: #d22424;
+    position        : relative;
+}
+
+.ImageCardSmallDivTop img {
+    height: auto;
+    width : 100%;
+}
+
+.ImageCardSmallDivText {
+    height          : 10%;
+    width           : 100%;
+    background-color: transparent;
+}
+
+.Dopamine {
+    position: absolute;
+    top     : 20px;
+    left    : 30px;
+    height  : auto;
+    width   : 100%;
+}
+
+.Craze {
+    position: absolute;
+    top     : 120px;
+    left    : 20px;
+}
+
+/*_____________*/
+/*ImageCardLong*/
+
+.ImageCardLong {
+    width           : 95%;
+    height          : 550px;
+    margin          : 2rem auto 3rem;
+    background-color: transparent;
+    border          : 1px white solid;
+}
+
+.ImageCardLongDivTop {
+    height          : 70%;
+    width           : 100%;
+    background-color: #d22424;
+    position        : relative;
+}
+
+.ImageCardLongDivTop img {
+    height: auto;
+    width : 100%;
+}
+
+.ImageCardLongDivTopDivText {
+    height          : 10%;
+    width           : 100%;
+    background-color: transparent;
+}
+
+/* Footer */
+/*_________*/
+
+.Footer {
+    height          : 30px;
+    background-color: white;
+    margin          : 5rem auto;
+    width           : 100%;
+    z-index         : 10;
+}
+
+
+/* ! Media Queries */
+/* ! Small Devices */
+
+
+@media(min-width: 320px) {
+    .column {
+        display   : block;
+        margin-top: 0;
+        width     : 100%;
+        height    : 260px;
+        margin-top: 5px;
+    }
+
+    .PreviewCardTall {
+        width  : 100%;
+        padding: 5px;
+    }
+
+    .Logo {
+        font-size     : 0.5em;
+        letter-spacing: 1rem;
+    }
+
+    .Badge {
+        padding-left: 8px;
+        padding-top : 12px;
+    }
+}
+
+
+/* ! Medium Sized Devices */
+@media(min-width: 768px) {
+
+}
+
+@media(min-width: 992px) {}
+
+@media(min-width: 1200px) {}
+
+/* Media Queries */
+
+@media only screen and(min-width: 600px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and(min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
