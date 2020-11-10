@@ -46,8 +46,8 @@ hr {
 /* ! CSS Body Structure Culture Cover Default */
 
 .CultureCover {
-    height: 100vh;
-    margin: auto;
+    height: 90vh;
+    margin: 1rem auto;
     display: grid;
     grid-template-rows: 35% 10% 55%;
     background-image: url("../img/2.jpg");
