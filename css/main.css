@@ -4,13 +4,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 html body  {
     font-family: "Montserrat";
     color: white;
     height: 100%;
+}
+
+section{
+    height: 100vh;
 }
 
 h1,
@@ -54,7 +57,7 @@ hr {
     height: 100vh;
     margin: auto;
     display: grid;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
     background-image: url("../img/akshar-dave-dp7GO9cFNLY-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,14 +101,26 @@ hr {
 }
 
 
+
+
+
+
+ /* About*/
+
+ .About{
+    display: grid;
+    grid-template-rows: 50% 50%; 
+ }
+
+
+
  /* Bottom Div */
 
 .bottomDiv {
-
     display: grid;
     grid-template-rows: 80% 20%;
     justify-content:center ;
-    grid-template-columns: 80%;
+    grid-template-columns: 100%;
 }
 
 .bottomDiv div:nth-child(1){
@@ -132,6 +147,7 @@ hr {
     padding: 0.1rem;
     text-align: center;
     border: 0.5px white solid;
+    border-style: inset;
 }
 
 .bottomDiv div:nth-child(2) h3 {
