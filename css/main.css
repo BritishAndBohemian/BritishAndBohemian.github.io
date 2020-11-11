@@ -137,7 +137,7 @@ hr {
 
 .bottomDiv {
     display: grid;
-    grid-template-rows: 80% 20%;
+    grid-template-rows: 70% 30%;
     justify-content:center ;
     grid-template-columns: 100%;
 }
@@ -760,11 +760,20 @@ ul {
 */
 /*Old code */
 /* Navbar_____________________ */
+
+
+
+.WhoWeAre{
+
+display: grid;
+grid-template-rows: 33% 33% 33% 33%;
+
+} 
 /* Parallax_____________________ */
 
 .parallax {
     /* The image used */
-    background-image: url("../Images/pexels-wherbson-rodrigues-4673418.jpg");
+    background-image: url("../img/fabrizio-verrecchia-Lk7birjWzZ8-unsplash.jpg");
     /* Set a specific height */
     min-height: 80vh;
     /* Create the parallax scrolling effect */
@@ -773,6 +782,17 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax h4{
+    padding-top: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 8px;
+}
+
+
+
 
 /*MusicItem */
 /*________ */
@@ -794,7 +814,7 @@ ul {
 .listItem {
     width: 100%;
     border: white 1px solid;
-    height: 50px;
+    height: 70px;
 }
 
 .listItem div:nth-child(1) {
@@ -805,11 +825,13 @@ ul {
 }
 
 .listItem div:nth-child(2) {
-    background-color:;
-    width: 70%;
+display: grid;
+grid-template-rows: 50% 50%;
+   
     height: 100%;
-    display: inline-block;
+    grid-column: 99%s;
     padding: 0 8px;
+    margin: 0;
 }
 
 .listItem img {
@@ -836,6 +858,7 @@ ul {
     font-style: bold;
     font-family: "Lato Light";
     padding-top: 0;
+    text-align: left;
 }
 
 /*MusicItem End */
