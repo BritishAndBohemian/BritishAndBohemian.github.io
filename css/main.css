@@ -13,9 +13,9 @@ html body  {
 }
 
 body{
-    background: linear-gradient(-80deg, #000000, #000000, #00a8ff, #f3c800);
+    background: linear-gradient(-50deg, #ff0000, #fe0a0a, #00ffbd, #f30000);
     background-size: 400% 400%;
-    animation: gradient 5s cubic-bezier(0.4, 0, 1, 1) infinite;
+    animation: gradient 5s ease-in-out infinite;
 }
 
 section{
