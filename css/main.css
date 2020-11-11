@@ -180,6 +180,76 @@ hr {
     line-height: 1rem;
 }
 
+
+
+
+@media (min-width: 768px) {
+
+    .middleDiv h1 {
+        font-family: "Copperplate Gothic";
+        letter-spacing: 1.3rem;
+        font-size: 2vh;
+        text-align: center;
+        padding: 5% 0% 5% 5%;
+        font-weight: 100;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+
+
+    .bottomDiv div:nth-child(2) h3 {
+        padding: 5px;
+        font-size: 1vh;
+        letter-spacing: 0.2rem;
+        line-height: 1rem;
+    }
+    
+    .bottomDiv div:nth-child(2) h4 {
+        padding: 0;
+        font-size:1vh;
+        letter-spacing: 0.5rem;
+        line-height: 1rem;
+    }
+
+    .bottomDiv div:nth-child(1) h2 {
+        font-family: "Coppperplate Gothic";
+        letter-spacing: 1.5rem;
+        font-size: 2vh;
+        text-align: center;
+        padding-left: 5%;
+        font-weight: 100;
+        margin-top: 20%;
+        display: inline;
+        text-align: center;
+    }
+    
+    
+}
+
+
+
+@media (min-width: 1280px) {
+
+
+    .bottomDiv div:nth-child(2) h3 {
+        padding: 5px;
+        font-size: 1vh;
+        letter-spacing: 0.2rem;
+        line-height: 1rem;
+    }
+    
+    .bottomDiv div:nth-child(2) h4 {
+        padding: 0;
+        font-size:1vh;
+        letter-spacing: 0.5rem;
+        line-height: 1rem;
+    }
+    
+}
+
+
 /* ! Body Main CSS Structure */
 
 .MainBody {
@@ -1403,58 +1473,6 @@ ___________________________________ */
     }
 
     .col-s-12 {
-        width: 100%;
-    }
-}
-
-@media only screen and(min-width: 768px) {
-
-    /* For desktop: */
-    .col-1 {
-        width: 8.33%;
-    }
-
-    .col-2 {
-        width: 16.66%;
-    }
-
-    .col-3 {
-        width: 25%;
-    }
-
-    .col-4 {
-        width: 33.33%;
-    }
-
-    .col-5 {
-        width: 41.66%;
-    }
-
-    .col-6 {
-        width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
-    }
-
-    .col-12 {
         width: 100%;
     }
 }
