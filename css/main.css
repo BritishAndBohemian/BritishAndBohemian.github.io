@@ -51,14 +51,31 @@ hr {
     src: url("../fonts/Keypass.ttf");
 }
 
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 /* ! CSS Body Structure Culture Cover Default */
 
 .CultureCover {
     height: 100vh;
     margin: auto;
     display: grid;
-    grid-template-rows: 50% 50%;
-    background-image: url("../img/akshar-dave-dp7GO9cFNLY-unsplash.jpg");
+    grid-template-rows: 30% 30% 40%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -141,13 +158,10 @@ hr {
 }
 
 .bottomDiv div:nth-child(2) {
-    background-color: black;
     margin: 0 auto;
     width: 100%;
     padding: 0.1rem;
     text-align: center;
-    border: 0.5px white solid;
-    border-style: inset;
 }
 
 .bottomDiv div:nth-child(2) h3 {
