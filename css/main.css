@@ -7,10 +7,10 @@
     overflow: hidden;
 }
 
-body {
-    font-family: "Lato";
+html body  {
+    font-family: "Montserrat";
     color: white;
-    overflow: hidden 0;
+    height: 100%;
 }
 
 h1,
@@ -40,25 +40,34 @@ hr {
 
 @font-face {
     font-family: "Copperplate Gothic";
-    src: url("../fonts/Copperplate-Gothic-Std-33-BC.woff");
+    src: url("../fonts/Copperplate-Gothic-Std-32-AB.woff");
+}
+
+@font-face {
+    font-family: "Key-Pass";
+    src: url("../fonts/Keypass.ttf");
 }
 
 /* ! CSS Body Structure Culture Cover Default */
 
 .CultureCover {
-    height: 90vh;
-    margin: 1rem auto;
+    height: 100vh;
+    margin: auto;
     display: grid;
-    grid-template-rows: 35% 10% 55%;
-    background-image: url("../img/2.jpg");
-    background-size: contain;
+    grid-template-rows: 33% 33% 33%;
+    background-image: url("../img/akshar-dave-dp7GO9cFNLY-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .topDiv {
     justify-content: center;
     display: flex;
-
 }
+
+
+ /* Middle Div */
+
 
 .middleDiv {
     display: grid;
@@ -67,10 +76,15 @@ hr {
 }
 .middleDiv h1 {
     font-family: "Copperplate Gothic";
-    letter-spacing: 25px;
-    font-size: 1em;
+    letter-spacing: 1.3rem;
+    font-size: 3vw;
     text-align: center;
-    padding-left: 10%;
+    padding: 5% 0% 5% 5%;
+    font-weight: 100;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
 }
 .middleDiv a {
     display: flex;
@@ -79,42 +93,57 @@ hr {
     margin: 0.5rem 0;
 }
 .middleDiv img {
-    width: 50px;
+    width: 10%;
     height: auto;
 }
 
+
+ /* Bottom Div */
+
 .bottomDiv {
+
     display: grid;
-    grid-template-rows: 60% 30%;
+    grid-template-rows: 80% 20%;
+    justify-content:center ;
+    grid-template-columns: 80%;
+}
+
+.bottomDiv div:nth-child(1){
+    display: flex;
+    justify-content: center;
 }
 
 .bottomDiv div:nth-child(1) h2 {
-    font-family: "Copperplate Gothic";
-    letter-spacing: 25px;
-    font-size: 1em;
+    font-family: "Coppperplate Gothic";
+    letter-spacing: 1.5rem;
+    font-size: 3vw;
     text-align: center;
-    padding-top: 10%;
+    padding-left: 15%;
+    font-weight: 100;
+    margin-top: 20%;
+    display: inline;
+    text-align: center;
 }
 
 .bottomDiv div:nth-child(2) {
     background-color: black;
     margin: 0 auto;
-    height: 80px;
-    width: 70%;
-    left: 10%;
-    padding: 0.5rem;
+    width: 100%;
+    padding: 0.1rem;
     text-align: center;
     border: 0.5px white solid;
 }
 
 .bottomDiv div:nth-child(2) h3 {
-    font-size: 0.5em;
-    letter-spacing: 0.8rem;
+    padding: 5px;
+    font-size: 2vw;
+    letter-spacing: 0.2rem;
     line-height: 1rem;
 }
 
 .bottomDiv div:nth-child(2) h4 {
-    font-size: 0.6em;
+    padding: 0;
+    font-size:2.5vw;
     letter-spacing: 0.5rem;
     line-height: 1rem;
 }
@@ -187,8 +216,8 @@ hr {
     display: flex;
     justify-content: center;
     line-height: 1px;
-    padding-top: 10px;
-    padding-left: 25px;
+    padding-top: 12px;
+    padding-left: 30px;
 }
 
 .Logo {
