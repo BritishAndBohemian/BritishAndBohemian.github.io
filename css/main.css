@@ -324,7 +324,7 @@ hr {
 @media all and (max-width: 420px) {
 
     body{
-        background-color: blue;
+     
     }
 
     .Gallery {
@@ -420,7 +420,7 @@ margin: 5rem auto;
 @media all and (min-width: 650px) {
 
     body{
-        background-color: rebeccapurple;
+      
     }
 
 
@@ -483,7 +483,7 @@ margin: 5rem auto;
 /*Large!!!!*/
 @media all and (min-width: 1280px) {
     body{
-        background-color: wheat;
+        
     }
     .Gallery {
         display: grid;
