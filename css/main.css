@@ -51,7 +51,7 @@ hr {
     font-family: 'Century Gothic Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Century Gothic Regular'), url('GOTHIC.woff') format('woff');
+    src: local('Century Gothic Regular'), url('fonts/GOTHIC.woff') format('woff');
     }
     
 
