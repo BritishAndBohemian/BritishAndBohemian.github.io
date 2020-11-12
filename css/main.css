@@ -469,6 +469,7 @@ div.scrollmenu a:hover {
 
 
 .Features{
+    height: 100vh;
     margin: 2rem auto;
 }
 
