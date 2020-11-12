@@ -389,7 +389,7 @@ line-height: 1rem;
 
 /*Half and half*/
 #HalfandHalf{
-    margin-top: 2rem;
+    margin: 3rem auto;
 }
 
 
@@ -399,10 +399,73 @@ line-height: 1rem;
 }
 
 
+.scrollmenu{
+
+    height: 300px;
+
+}
 
 
 
+div.scrollmenu {
+    background-color: #BFAB25;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
 
+  .artist{
+      margin: 10px;
+      display: grid;
+      grid-template-rows: 80% auto;
+  }
+
+  .artist div:nth-child(1){
+background: white;
+  }
+
+  .artist div:nth-child(1) img{
+      width: 100%;
+      height: auto;
+  }
+
+
+
+  .artist div:nth-child(2){
+
+  }
+
+  .artist div:nth-child(2) button{
+    margin: 10px auto;
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: white 1px solid;
+    display: block;
+    position: static;
+    box-shadow: ;
+}
+
+.shadow6 {
+    box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
+                10px 10px rgba(0, 98, 90, 0.3),
+                15px 15px rgba(0, 98, 90, 0.2),
+                20px 20px rgba(0, 98, 90, 0.1),
+                25px 25px rgba(0, 98, 90, 0.05);
+  }
 
 /* ! Media Queries */
 /* ! Small Devices */
