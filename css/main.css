@@ -282,6 +282,7 @@ hr {
 .Gallery {
     margin: 1rem auto;
 display: grid;
+justify-content: center;
 }
 
 
