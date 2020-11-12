@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Vidaloka|Oswald:400, 300);
+
+.container {
+	width: 100%;
+	overflow: auto;
+
+}
+
+.card {
+	position: relative;
+	width: 300px;
+	background: transparent;
+	margin: 2rem 0;
+	overflow: hidden;
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card hr {
+	margin: 0 auto;
+}
+
+.border {
+	position: absolute;
+	left: 13px;
+	height: 100%;
+	width: 270px;
+	border: 3px double #aaa;
+}
+
+.avatar {
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	overflow: hidden;
+	margin: 30px auto 30px;
+}
+
+.avatar img {
+	width: 200px;
+	margin-left: -10px;
+}
+
+.stats {
+	color: white;
+	padding: 0;
+	font-size: 90%;
+	height: 250px;
+	word-wrap: none;
+}
+
+.stats>div {
+	padding: 20px 25px 0 25px;
+}
+
+.stats p {
+	margin: 5px;
+}
+
+.stats h2 {
+	text-align: center;
+	font-size: 1.5em;
+	margin: 5px 0 10px;
+}
+
+.stats a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	border-radius: 0;
+	border: none;
+	background-color: transparent;
+	color: white;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+hr {
+	width: 70%;
+	margin: auto;
+}
+
+@media all and (max-width: 500px) {
+
+	.stats {
+		padding: 0;
+		font-size:80%;
+		height: 250px;
+		width: 300px;
+	}
+}
+
+/*Medium!!!!*/
+@media all and (min-width: 740px) {
+	.stats {
+		padding: 0;
+		font-size:80%;
+		height: 250px;
+		width: 300px;
+	}
+
+}
+
+
+
+/*Large!!!!*/
+@media all and (min-width: 1008px) {
+	.stats {
+		padding: 0;
+		font-size:80%;
+		height: 250px;
+		width: 300px;
+	}
+}
