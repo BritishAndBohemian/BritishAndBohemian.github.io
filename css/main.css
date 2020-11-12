@@ -13,7 +13,7 @@ html body {
 }
 
 body {
-    background:linear-gradient(10deg, hsl(0, 0%, 0%) 0%, hsl(194.2, 83.7%, 16.9%) 100%);
+    background: linear-gradient(10deg, hsl(0, 0%, 0%) 0%, hsl(194.2, 83.7%, 16.9%) 100%);
     background-size: 600%;
     animation: gradient 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
 }
@@ -52,31 +52,31 @@ hr {
     font-style: normal;
     font-weight: normal;
     src: local('Century Gothic Regular'), url('../fonts/GOTHIC.woff') format('woff');
-    }
-    
+}
 
-    @font-face {
+
+@font-face {
     font-family: 'Century Gothic Italic';
     font-style: normal;
     font-weight: normal;
     src: local('Century Gothic Italic'), url('../fonts/GOTHICI.woff') format('woff');
-    }
-    
+}
 
-    @font-face {
+
+@font-face {
     font-family: 'Century Gothic Bold';
     font-style: normal;
     font-weight: normal;
     src: local('Century Gothic Bold'), url('../fonts/GOTHICB.woff') format('woff');
-    }
-    
+}
 
-    @font-face {
+
+@font-face {
     font-family: 'Century Gothic Bold Italic';
     font-style: normal;
     font-weight: normal;
     src: local('Century Gothic Bold Italic'), url('../fonts/GOTHICBI.woff') format('woff');
-    }
+}
 
 
 
@@ -310,52 +310,52 @@ hr {
 
 
 /*Culture Default Section Manager */
-.SectionCulture{
+.SectionCulture {
     display: grid;
     height: 100vh;
 }
 
-.col-2{
+.col-2 {
     grid-template-columns: 50% 50%;
 }
 
-.row-2{
+.row-2 {
     grid-template-rows: 50% 50%;
 }
 
 
 /*Culture Landing*/
 
-.CultureLanding{
+.CultureLanding {
     display: grid;
     grid-template-rows: 80% 20%;
-height: 100vh;
+    height: 100vh;
 }
 
-.CultureLanding img{
+.CultureLanding img {
     width: 100%;
     height: auto;
-} 
+}
 
-.IntroTopImage{
+.IntroTopImage {
     background-color: whitesmoke;
     background-image: url("../img/k8-n4QDhxwS0Ww-unsplash.jpg");
-background-size: cover;
-display: grid;
-grid-template-rows: 40% 60%;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 40% 60%;
 }
 
-#IntroText{
-display: flex;
-justify-content: center;
-line-height: 1rem;
+#IntroText {
+    display: flex;
+    justify-content: center;
+    line-height: 1rem;
 }
 
-.IntroTopImage div{
+.IntroTopImage div {
     position: relative;
 }
 
-.IntroTopImage div > h4{
+.IntroTopImage div>h4 {
     letter-spacing: 5px;
     line-height: 20px;
     text-transform: uppercase;
@@ -365,7 +365,7 @@ line-height: 1rem;
     text-align: center;
 }
 
-.Introtext h2{
+.Introtext h2 {
     font-size: 0.8em;
     letter-spacing: 2px;
     line-height: 20px;
@@ -376,30 +376,31 @@ line-height: 1rem;
     text-align: center;
 }
 
-.Introtext div{
+.Introtext div {
     text-align: center;
     display: flex;
     justify-content: center;
 }
-.Introtext span{
+
+.Introtext span {
     display: inline-block;
 }
 
 
 
 /*Half and half*/
-#HalfandHalf{
-    margin: 3rem auto;
+#HalfandHalf {
+    margin: 5rem auto;
 }
 
 
-.Top{
+.Top {
     display: grid;
-    grid-template-columns: 40% 60% ;
+    grid-template-columns: 40% 60%;
 }
 
 
-.scrollmenu{
+.scrollmenu {
 
     height: 300px;
 
@@ -412,42 +413,40 @@ div.scrollmenu {
     overflow: auto;
     white-space: nowrap;
     display: flex;
-  }
-  
-  div.scrollmenu a {
+}
+
+div.scrollmenu a {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px;
     text-decoration: none;
-  }
-  
-  div.scrollmenu a:hover {
+}
+
+div.scrollmenu a:hover {
     background-color: #777;
-  }
+}
 
-  .artist{
-      margin: 10px;
-      display: grid;
-      grid-template-rows: 80% auto;
-  }
+.artist {
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 80% auto;
+}
 
-  .artist div:nth-child(1){
-background: white;
-  }
+.artist div:nth-child(1) {
+    background: white;
+}
 
-  .artist div:nth-child(1) img{
-      width: 100%;
-      height: auto;
-  }
+.artist div:nth-child(1) img {
+    width: 100%;
+    height: auto;
+}
 
 
 
-  .artist div:nth-child(2){
+.artist div:nth-child(2) {}
 
-  }
-
-  .artist div:nth-child(2) button{
+.artist div:nth-child(2) button {
     margin: 10px auto;
     width: 150px;
     height: 50px;
@@ -461,40 +460,48 @@ background: white;
 
 .shadow6 {
     box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
-                10px 10px rgba(0, 98, 90, 0.3),
-                15px 15px rgba(0, 98, 90, 0.2),
-                20px 20px rgba(0, 98, 90, 0.1),
-                25px 25px rgba(0, 98, 90, 0.05);
-  }
+        10px 10px rgba(0, 98, 90, 0.3),
+        15px 15px rgba(0, 98, 90, 0.2),
+        20px 20px rgba(0, 98, 90, 0.1),
+        25px 25px rgba(0, 98, 90, 0.05);
+}
 
-  .Features h1{
-      font-size: 2rem;
-      text-align: center;
+
+
+.Features{
+    margin: 2rem auto;
+}
+
+.Features h1 {
+    font-size:1.5rem;
+    text-align: center;
     letter-spacing: 10px;
     line-height: 20px;
     text-transform: uppercase;
     font-weight: 100;
     padding: 2rem;
     margin: auto;
-    text-align: center;}
+    text-align: center;
+}
 
-  .Features h4{
-text-align: center;
-letter-spacing: 2px;
-line-height: 20px;
-text-transform: uppercase;
-font-weight: 100;
-padding: 2rem;
-margin: auto;
-font-style: italic;
-text-align: center;
-  }
+.Features h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 2rem;
+    margin: auto;
+    font-style: italic;
+    text-align: center;
+}
 
-  
-  .Features p{
-      text-align: center;
-      margin: 2rem;
-  }
+
+.Features p {
+    text-align: center;
+    margin: 2rem;
+}
+
 /* ! Media Queries */
 /* ! Small Devices */
 
@@ -503,9 +510,7 @@ text-align: center;
 /*Small*/
 @media all and (max-width: 420px) {
 
-    body{
-     
-    }
+    body {}
 
     .Gallery {
         grid-template-rows: auto auto auto;
@@ -586,15 +591,15 @@ text-align: center;
 
 
 /*Description */
-.Description{
-text-align: center;
-letter-spacing: 20px;
-font-weight: 100;
-font-family: "Copperplate Gothic";
-margin: 5rem auto;
-font-size: 10px;
-padding-left: 5%;
-line-height: 30px;
+.Description {
+    text-align: center;
+    letter-spacing: 20px;
+    font-weight: 100;
+    font-family: "Copperplate Gothic";
+    margin: 5rem auto;
+    font-size: 10px;
+    padding-left: 5%;
+    line-height: 30px;
 }
 
 
@@ -602,9 +607,7 @@ line-height: 30px;
 /*Medium!!!!*/
 @media all and (min-width: 650px) {
 
-    body{
-      
-    }
+    body {}
 
 
     .WhoWeAre {
@@ -665,13 +668,12 @@ line-height: 30px;
 
 /*Large!!!!*/
 @media all and (min-width: 1280px) {
-    body{
-        
-    }
+    body {}
+
     .Gallery {
         display: grid;
         width: ;
         margin: 2rem auto;
-        grid-template-columns:33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
     }
 }
