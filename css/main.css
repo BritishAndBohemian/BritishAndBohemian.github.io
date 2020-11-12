@@ -13,7 +13,7 @@ html body {
 }
 
 body {
-    background: linear-gradient(10deg, hsla(0, 0%, 0%, 1) 0%, hsla(12, 97%, 65%, 1) 100%);
+    background:linear-gradient(10deg, hsl(0, 0%, 0%) 0%, hsl(194.2, 83.7%, 16.9%) 100%);
     background-size: 600%;
     animation: gradient 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
 }
@@ -191,7 +191,7 @@ hr {
     height: 100vh;
     margin: auto;
     display: grid;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-rows: 20% 47% 33%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -397,6 +397,10 @@ line-height: 1rem;
     display: grid;
     grid-template-columns: 40% 60% ;
 }
+
+
+
+
 
 
 
