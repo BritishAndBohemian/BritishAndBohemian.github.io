@@ -2,16 +2,17 @@
 
 .container {
 	width: 100%;
-	overflow: auto;
+display: flex;
+justify-content: center;
 
 }
 
 .card {
-	position: relative;
-	width: 300px;
-	background: transparent;
-	margin: 2rem 0;
-	overflow: hidden;
+	padding: 5px;
+    position: relative;
+    width: 300px;
+    background: transparent;
+    margin: 2rem 0;
 
 }
 
@@ -85,29 +86,42 @@ position: relative;
 }
 
 
-hr {
-	width: 70%;
-	margin: auto;
-}
 
-@media all and (max-width: 500px) {
+
+@media all and (max-width: 650px) {
 
 	.stats {
 		padding: 0;
 		font-size:80%;
 		height: 250px;
 		width: 300px;
+	}
+	.card{
+		height: 600px;
+		/* padding: 5px; */
+		position: relative;
+		width: 300px;
+		background: transparent;
+		margin: 2rem 0;
 	}
 }
 
 /*Medium!!!!*/
-@media all and (min-width: 740px) {
+@media all and (min-width: 640px) {
 	.stats {
 		padding: 0;
 		font-size:80%;
 		height: 250px;
 		width: 300px;
 	}
+.card{
+	height: 600px;
+    /* padding: 5px; */
+    position: relative;
+    width: 300px;
+    background: transparent;
+    margin: 2rem 0;
+}
 
 }
 
