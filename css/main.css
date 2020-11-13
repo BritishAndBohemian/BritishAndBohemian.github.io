@@ -400,6 +400,10 @@ hr {
 }
 
 
+.Bottom{
+    height: 80vh;
+}
+
 .scrollmenu {
 
     height: 300px;
