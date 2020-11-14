@@ -401,8 +401,20 @@ hr {
 
 
 .Bottom{
-    height: 80vh;
+
 }
+
+
+
+.spaces{
+
+}
+
+.spaces video{
+    width: 100%;
+    height:30vh;
+}
+
 
 .scrollmenu {
 
@@ -413,11 +425,13 @@ hr {
 
 
 div.scrollmenu {
-    background-color: #BFAB25;
-    overflow: auto;
-    white-space: nowrap;
-    display: flex;
-}
+    background: linear-gradient(10deg, hsl(30.8, 100%, 50%) 0%, hsl(73.2, 100%, 50%) 100%);
+    background-size: auto;
+background-size: 600%;
+animation: gradient 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+overflow: auto;
+white-space: nowrap;
+display: flex;}
 
 div.scrollmenu a {
     display: inline-block;
@@ -473,7 +487,6 @@ div.scrollmenu a:hover {
 
 
 .Features{
-    height: 100vh;
     margin: 2rem auto;
 }
 
