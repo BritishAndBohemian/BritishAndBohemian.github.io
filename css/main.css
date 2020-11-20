@@ -437,15 +437,19 @@ white-space: nowrap;
 display: flex;}
 
 div.scrollmenu a {
+    width: 99%;
+    height: 99%;
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    background-color: transparent;
 }
 
 div.scrollmenu a:hover {
-    background-color: #777;
+    background-color: black;
+    color: white;
 }
 
 .artist {
