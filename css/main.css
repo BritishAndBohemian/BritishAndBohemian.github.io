@@ -104,6 +104,9 @@ hr {
 
 
 
+
+
+
 /* ! Culture Navigation Bar*/
 /*Navbar */
 /*________ */
@@ -686,7 +689,7 @@ div.scrollmenu a:hover {
 
 /*Large!!!!*/
 @media all and (min-width: 1280px) {
-    body {}
+
 
     .Gallery {
         display: grid;
