@@ -8,17 +8,24 @@
 
 html body {
     font-family: "CenturyGothicRegular";
-    color: white;
     height: 100%;
 }
 
 body {
-    background: linear-gradient(10deg, hsl(0, 0%, 0%) 0%, hsl(194.2, 83.7%, 16.9%) 100%);
+    background: linear-gradient(10deg, hsl(0, 0%, 100%) 0%, hsla(300.9, 100%, 50%, 0.43) 100%);
     background-size: 600%;
     animation: gradient 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
 }
 
+.CultureIsGod{
+    background: white;
+    color: black;
+}
 
+.CultureIsDeath{
+    background: black;
+    color: white;
+}
 
 h1,
 h2,
@@ -428,7 +435,7 @@ hr {
 
 
 div.scrollmenu {
-    background: linear-gradient(10deg, hsl(30.8, 100%, 50%) 0%, hsl(73.2, 100%, 50%) 100%);
+    background:linear-gradient(10deg, hsl(30.8, 100%, 50%) 0%, hsl(0, 0%, 100%) 100%);
     background-size: auto;
 background-size: 600%;
 animation: gradient 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
@@ -569,13 +576,13 @@ div.scrollmenu a:hover {
 
     .bottomDiv div:nth-child(1) h2 {
         letter-spacing: 1.5rem;
-        font-size: 3vw;
+        font-size: 2vw;
         text-align: center;
         font-weight: 100;
         margin-top: 20%;
         display: inline;
-        padding-left: 10%;
         text-align: center;
+        padding-left: 10%;
     }
 
     .middleDiv h1 {
@@ -595,6 +602,14 @@ div.scrollmenu a:hover {
     .bottomDiv div:nth-child(2) h3 {
         padding: 5px;
         font-size: 1vh;
+        letter-spacing: 0.2rem;
+        line-height: 1rem;
+    }
+
+    .bottomDiv div:nth-child(2) h4 {
+        padding: 5px 5px; 
+        font-size: 2vh;
+        font-weight: 100;
         letter-spacing: 0.2rem;
         line-height: 1rem;
     }
@@ -648,8 +663,16 @@ div.scrollmenu a:hover {
 
 
     .bottomDiv div:nth-child(2) h3 {
-        padding: 0px;
-        font-size: 1vh;
+        padding: 0px 5px;
+        font-size: 0.8vh;
+        letter-spacing: 0.2rem;
+        line-height: 1rem;
+    }
+
+    .bottomDiv div:nth-child(2) h4 {
+        padding: 5px 5px; 
+        font-size: 2vh;
+        font-weight: 100;
         letter-spacing: 0.2rem;
         line-height: 1rem;
     }
@@ -658,7 +681,7 @@ div.scrollmenu a:hover {
 
     .bottomDiv div:nth-child(1) h2 {
         letter-spacing: 1.5rem;
-        font-size: 3vH;
+        font-size: 2vH;
         text-align: center;
         font-weight: 100;
         margin: auto;
