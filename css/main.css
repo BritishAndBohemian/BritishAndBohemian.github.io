@@ -349,13 +349,14 @@ hr {
 
 .IntroTopImage {
     background-color: whitesmoke;
-    background-image: url("../img/k8-n4QDhxwS0Ww-unsplash.jpg");
-    background-size: cover;
+    background-image: url("../img/robert-horvick-1R4uPYipCFM-unsplash.jpg");
+    background-size: contain;
     display: grid;
     grid-template-rows: 40% 60%;
 }
 
 #IntroText {
+    color: white;
     display: flex;
     justify-content: center;
     line-height: 1rem;
