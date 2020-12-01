@@ -12,9 +12,7 @@ html body {
 }
 
 body {
-    background: linear-gradient(10deg, hsl(0, 0%, 100%) 0%, hsla(300.9, 100%, 50%, 0.43) 100%);
-    background-size: 600%;
-    animation: gradient 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+
 }
 
 .CultureIsGod{
@@ -201,7 +199,7 @@ hr {
     height: 100vh;
     margin: auto;
     display: grid;
-    grid-template-rows: 20% 47% 33%;
+    grid-template-rows: 20% 40% auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -241,8 +239,9 @@ hr {
 }
 
 .middleDiv img {
-    width: 10%;
-    height: 10%;
+    width: 4vw;
+    height:auto;
+	width: 50px;
 }
 
 
@@ -541,9 +540,9 @@ div.scrollmenu a:hover {
 
 
 /*Small*/
-@media all and (max-width: 420px) {
+@media all and (max-width: 600px) {
 
-    body {}
+body {background-color: yellow}
 
     .Gallery {
         grid-template-rows: auto auto auto;
@@ -583,7 +582,7 @@ div.scrollmenu a:hover {
         margin-top: 20%;
         display: inline;
         text-align: center;
-        padding-left: 10%;
+        padding-left: 5%;
     }
 
     .middleDiv h1 {
@@ -602,7 +601,7 @@ div.scrollmenu a:hover {
 
     .bottomDiv div:nth-child(2) h3 {
         padding: 5px;
-        font-size: 1vh;
+        font-size: 1.5vh;
         letter-spacing: 0.2rem;
         line-height: 1rem;
     }
@@ -646,9 +645,9 @@ div.scrollmenu a:hover {
 
 
 /*Medium!!!!*/
-@media all and (min-width: 650px) {
+@media all and (min-width: 601px) {
 
-    body {}
+    body {background-color: red}
 
 
     .WhoWeAre {
@@ -718,6 +717,7 @@ div.scrollmenu a:hover {
 /*Large!!!!*/
 @media all and (min-width: 1280px) {
 
+	body {background-color: Blue}
 
     .Gallery {
         display: grid;
