@@ -108,10 +108,6 @@ hr {
 
 
 
-
-
-
-
 /* ! Culture Navigation Bar*/
 /*Navbar */
 /*________ */
@@ -703,8 +699,8 @@ body {background-color: yellow}
 
     .middleDiv img {
         margin-top: 10%;
-        width: 10%;
-        height: auto;
+        width: auto;
+        height: 50px;
     }
 }
 
@@ -717,9 +713,9 @@ body {background-color: yellow}
 /*Large!!!!*/
 @media all and (min-width: 1280px) {
 
-	body {background-color: Blue}
+body {background-color: Blue}
 
-    .Gallery {
+.Gallery {
         display: grid;
         width: ;
         margin: 2rem auto;
