@@ -539,6 +539,17 @@ div.scrollmenu a:hover {
 
 
 
+
+
+.bgImage{
+    background-image:url("../img/pexels-waldir-évora-5941929.jpg");
+background-repeat: repeat-x;
+background-size: cover;}
+
+
+
+
+
 /*Small*/
 @media all and (max-width: 600px) {
 
@@ -717,7 +728,8 @@ body {background-color: yellow}
 /*Large!!!!*/
 @media all and (min-width: 1280px) {
 
-	body {background-color: Blue}
+    body {background-color: ;}
+
 
     .Gallery {
         display: grid;
