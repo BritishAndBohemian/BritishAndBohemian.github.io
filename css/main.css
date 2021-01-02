@@ -240,7 +240,7 @@ hr {
 
 .middleDiv img {
     width: 4vw;
-    height:50px;
+    height:10px;
 	width: auto;
 }
 
@@ -283,7 +283,13 @@ hr {
     line-height: 1rem;
 }
 
-
+.bottomDiv h5 {
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-top: 0.2rem;
+    font-size: 0.3rem;
+    letter-spacing: 0.2rem;
+}
 
 
 
@@ -574,8 +580,9 @@ body {background-color: yellow}
     }
 
     .Logo {
-        font-size: 0.5em;
-        letter-spacing: 1rem;
+        font-size: 0.6em;
+        padding-top: 3px;
+        letter-spacing: 0.75rem;
     }
 
     .Badge {
@@ -615,11 +622,12 @@ body {background-color: yellow}
         font-size: 1.5vh;
         letter-spacing: 0.2rem;
         line-height: 1rem;
+        font-weight: bold;
     }
 
     .bottomDiv div:nth-child(2) h4 {
         padding: 5px 5px; 
-        font-size: 2vh;
+        font-size: 1.5vh;
         font-weight: 100;
         letter-spacing: 0.2rem;
         line-height: 1rem;
@@ -682,7 +690,7 @@ body {background-color: yellow}
 
     .bottomDiv div:nth-child(2) h4 {
         padding: 5px 5px; 
-        font-size: 2vh;
+        font-size: 1vh;
         font-weight: 100;
         letter-spacing: 0.2rem;
         line-height: 1rem;
