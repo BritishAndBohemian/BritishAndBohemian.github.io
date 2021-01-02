@@ -354,8 +354,11 @@ hr {
 
 .IntroTopImage {
     background-color: whitesmoke;
-    background-image: url("../img/robert-horvick-1R4uPYipCFM-unsplash.jpg");
-    background-size: contain;
+    background-attachment: fixed;
+    background-image: url("../img/pexels-matheus-natan-5689042.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-rows: 40% 60%;
 }
@@ -367,9 +370,16 @@ hr {
     line-height: 1rem;
 }
 
-.IntroTopImage div {
+.divimgTrending {
     position: relative;
+    margin: auto;
+     width: 90%;
+      height: 100%;
+    background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(5px);
 }
+
+
 
 .IntroTopImage div>h4 {
     letter-spacing: 5px;
@@ -423,6 +433,7 @@ hr {
 
 
 .spaces{
+    background-color: white;
 
 }
 
@@ -548,7 +559,7 @@ div.scrollmenu a:hover {
 
 
 .bgImage{
-    background-image:url("../img/pexels-waldir-évora-5941929.jpg");
+    background-image:url("../img/michele-caliani-iLAAT1E-H_8-unsplash.jpg");
 background-repeat: repeat-x;
 background-size: cover;}
 
