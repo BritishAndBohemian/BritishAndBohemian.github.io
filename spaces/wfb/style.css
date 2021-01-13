@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 90% 1fr;
+    font-family: "Montserrat";
+}
+
+.navcenter{
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 1PX;
+    right:0;
+    height: 10vh;
+    border-style: inset;
+    border: white 4px solid;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+}
+
+.nav #Logo img {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+    height: 100%;
+    ;
+}
+
+.navlst {
+    display: flex;
+    justify-content: right;
+    color: white;
+    marker: none;
+    text-decoration-style: none;
+    place-items: center;
+    padding: 5px;
+}
+
+.navlst #foward{
+    margin-left: 3rem;
+}
+
+#back{
+
+  
+}
+
+ul {
+    list-style-type: none
+}
+
+li:hover{
+    background: white;
+    color: black;
+}
+
+
+
+li {
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 60px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    width: 60px;
+    margin-right: 1rem;
+    text-emphasis: none;
+    text-decoration: none;
+    transition: ease-in-out 1.2s;
+}
+
+
+.content {
+    margin: auto;
+    height: 85vh;
+    display: grid;
+    grid-template-rows: 80% 1fr 1fr 1fr;
+    padding: 1rem;
+    width: 90vw;
+    transition: ease-out 1.5s;
+}
+
+@media (min-width: 50em){
+    .content {
+        margin: auto;
+        height: 85vh;
+        display: grid;
+        grid-template-rows: 80% 1fr 1fr 1fr;
+        padding: 1rem;
+        width: 40vw;
+    }   
+}
+
+
+
+#ImageFromNet {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://lh3.googleusercontent.com/DFtmzlBRcy7tfY5g5h7rZeMQ6T8ECYXK_LWlIoh_dvaPwZURHGqV6HTlU9JjLErRrcy54Kroc64-qnZ5Whos3VPrIH3YCC-1Gz0iIg=w1064-v0");
+    background-size: cover;
+}
+
+.BBButton{
+    width:100% ;
+    height: 100%;
+    background-color: none;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+transition: ease-in 1s;
+}
+
+.BBButton:hover{
+    background: white;
+    color: black;
+}
+
+.text {
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: ;
+}
+
+.text hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5em;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+.paragraph {
+    height: 100%;
+    background-color:;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5vh;
+    text-align: center;
+}
