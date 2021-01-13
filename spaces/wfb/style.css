@@ -50,6 +50,13 @@ nav {
     margin-left: 3rem;
 }
 
+@media (min-width:10em){
+    #Foward{
+        width: 40px;
+        height: 40px;
+    }
+}
+
 #back{
 
   
@@ -89,6 +96,17 @@ li {
     padding: 1rem;
     width: 90vw;
     transition: ease-out 1.5s;
+}
+
+@media (min-width: 10em){
+    .content {
+        margin: auto;
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 60% 1fr 1fr 1fr;
+        padding: 1rem;
+        width: 90vw;
+    }   
 }
 
 @media (min-width: 50em){
