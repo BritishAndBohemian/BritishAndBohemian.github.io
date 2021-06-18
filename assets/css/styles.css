@@ -1,0 +1,111 @@
+.navbar.navbar-light.navbar-expand-md.BBNavbar {
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+.divOuter {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 60% auto;
+  background-color: black;
+}
+
+.divButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divMenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#buttonLogo {
+  background-image: url("../../assets/img/LogoSmall.svg");
+  width: 20vw;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#menuBtn {
+  width: 20vw;
+  background-color: transparent;
+  background-image: url("../../assets/img/menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: transparent;
+}
+
+#carouselEnterBB {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 30% 30% auto;
+  justify-content: center;
+  padding: 10%;
+}
+
+#BBButtonEnter {
+  height: 80px;
+  width: 80px;
+  background-image: url("../../assets/img/Logo.svg");
+  background-color: transparent;
+  background-position: center;
+  background-size: 150px;
+  border: none;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#what-is-this {
+  text-align: center;
+  font-size: 30px;
+  text-transform: lowercase;
+  animation-name: fade;
+  animation-duration: 1000ms;
+  color: white;
+  font-family: 'Copperplate Gothic Std 32 BC';
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+

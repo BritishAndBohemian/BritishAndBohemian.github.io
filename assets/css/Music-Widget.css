@@ -1,0 +1,145 @@
+.container {
+  background-color: #f1f1f1;
+}
+
+.watch-card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.watch-card > div {
+  max-width: 300px;
+}
+
+.watch-card:hover .artist-title a, .watch-card:hover .listing-tab .tab-content ul li a {
+  color: #167ac9;
+}
+
+.listing-tab .tab-content ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.artist-title {
+  padding: 15px;
+  background: #fff;
+}
+
+.artist-title a {
+  test-decoration: none;
+  font-size: 21px;
+  font-family: arial, san-serif;
+  color: #555;
+}
+
+.artist-title a:hover {
+  color: #16a3de;
+}
+
+.artist-collage img {
+  max-width: 100%;
+}
+
+.artist-collage {
+  position: relative;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.artist-collage, .artist-collage div {
+  padding: 0;
+}
+
+.collage-rhs img {
+  margin-top: -5px;
+}
+
+.listing-tab {
+  padding: 0;
+}
+
+.related-artist .artist-next {
+  padding-left: 0;
+}
+
+.related-artist .col-md-12 {
+  padding-right: 0;
+}
+
+.related-artist img {
+  width: 100%;
+}
+
+.related-artist h3 {
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 9px;
+}
+
+.related-artist {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.listing-tab .tab-content ul {
+  padding: 0;
+  margin: 0;
+}
+
+.listing-tab .tab-content ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #eee;
+  padding: 8px;
+}
+
+.listing-tab .tab-content ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #eee;
+  padding: 8px;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #666;
+}
+
+.listing-tab .tab-content ul li a {
+  text-decoration: none;
+  color: #666;
+}
+
+.listing-tab .tab-content ul li span {
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+}
+
+.listing-tab .nav-tabs > li, .nav-tabs > li a:hover {
+  margin-bottom: 0;
+  background: none;
+}
+
+.listing-tab .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: none;
+  background: none;
+}
+
+.listing-tab .nav-tabs > li > a:hover {
+  border-color: none;
+  color: red;
+}
+
+.listing-tab .nav-tabs > li > a {
+  border: 0;
+  padding: 17px 0 7px;
+  color: #333;
+  margin-left: 15px;
+}
+
+.listing-tab .nav-tabs > li.active > a {
+  border-bottom: 2px solid #bb0000;
+  color: #000;
+}
+
+.listing-tab {
+  background-color: #fff;
+}
+
