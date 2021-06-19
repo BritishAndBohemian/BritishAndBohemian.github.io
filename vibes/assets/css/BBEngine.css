@@ -567,7 +567,7 @@ body {
 
 @media (min-width: 300px) {
   #cardsVibes {
-    background-color: rgb(255,246,228);
+    background-color: rgb(228,233,233);
     display: grid;
     padding-top: 0rem;
     padding-bottom: 4rem;
@@ -614,7 +614,7 @@ body {
 #box-2 {
   height: 100vh;
   width: 100%;
-  background-image: url("../../assets/img/jarritos-mexican-soda-moNvzYSbX7g-unsplash-3.jpg");
+  background-image: url("../../assets/img/pexels-polina-tankilevitch-6024600.jpg");
   background-size: 100vh;
   background-position: center;
   display: table;
@@ -633,7 +633,7 @@ body {
 #box-3 {
   height: 100vh;
   width: 100%;
-  background-image: url(../../assets/img/jakob-owens-K6RyPzK24EM-unsplash-edit.jpg);
+  background-image: url(../../assets/img/pexels-cottonbro-3206080.jpg);
   background-size: contain;
   display: table;
   background-attachment: fixed;
