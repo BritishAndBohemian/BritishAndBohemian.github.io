@@ -169,5 +169,13 @@
 #divBtn {
   display: flex;
   justify-content: center;
+  height: 80px;
+}
+
+#bbBtn {
+  border-radius: 0px;
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
 }
 
