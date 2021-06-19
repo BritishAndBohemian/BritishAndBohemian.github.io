@@ -614,7 +614,7 @@ body {
 #box-2 {
   height: 100vh;
   width: 100%;
-  background-image: url("../../assets/img/pexels-polina-tankilevitch-6024600.jpg");
+  background-image: url("../../assets/img/imgcaro1.jpg");
   background-size: 100vh;
   background-position: center;
   display: table;
@@ -633,7 +633,7 @@ body {
 #box-3 {
   height: 100vh;
   width: 100%;
-  background-image: url(../../assets/img/pexels-cottonbro-3206080.jpg);
+  background-image: url(../../assets/img/imgcaro2.jpg);
   background-size: contain;
   display: table;
   background-attachment: fixed;
