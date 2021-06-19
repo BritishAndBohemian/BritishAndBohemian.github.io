@@ -112,9 +112,9 @@
   background-size: 150px;
   border: none;
   animation-name: spin;
-  animation-duration: 5000ms;
+  animation-duration: 4000ms;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
 }
 
 #what-is-this {
@@ -126,7 +126,7 @@
   color: white;
   font-family: 'Copperplate Gothic Std 32 BC';
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: step-start;
 }
 
 body {
@@ -138,5 +138,15 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(38,143,255,0);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
 }
 
