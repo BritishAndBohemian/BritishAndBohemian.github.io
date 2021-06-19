@@ -1,3 +1,9 @@
+.containerGrid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+}
+
 #headerDiv {
   display: grid;
   grid-template-rows: 50% 50%;
@@ -82,7 +88,7 @@
 }
 
 #menuBtn {
-  width: 20vw;
+  width: 10vw;
   background-color: transparent;
   background-image: url("../../assets/img/menu.svg");
   background-repeat: no-repeat;
@@ -94,13 +100,13 @@
   height: 100vh;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 70% auto;
+  grid-template-rows: 60% 10% 20%;
   justify-content: center;
   padding: 10%;
-  background-image: url("../../assets/img/bold.jpg");
+  background-image: url("../../assets/img/Ad.jpg");
   background-position: center;
-  background-size: 150vw;
-  background-repeat: no-repeat;
+  background-size: 100%;
+  background-repeat: repeat;
 }
 
 #BBButtonEnter {
@@ -141,12 +147,18 @@ body {
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgba(38,143,255,0);
+  box-shadow: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf;
+  background-color: transparent;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: transparent;
+  box-shadow: none;
 }
 

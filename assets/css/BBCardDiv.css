@@ -158,9 +158,15 @@
   margin-top: 1rem;
   margin-bottom: 5rem;
   background-color: white;
+  width: 50%;
 }
 
 #divLogo {
+  display: flex;
+  justify-content: center;
+}
+
+#divBtn {
   display: flex;
   justify-content: center;
 }

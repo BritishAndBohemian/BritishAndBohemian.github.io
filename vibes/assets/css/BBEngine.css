@@ -1,0 +1,756 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat Medium';
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  border: transparent;
+  height: 100vh;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(255,255,255,0.5);
+  border-color: rgba(0,0,0,.1);
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: rgba(0,0,0,.1);
+}
+
+.img-fluid.vibes {
+  background-image: url("VibesWhite.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: 150px;
+}
+
+@media (min-width: 1200px) {
+  .vibesimg {
+    width: auto;
+    height: 30vh;
+    margin-top: 20%;
+    display: block;
+  }
+}
+
+.vibesDiv {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.vibesimg {
+  width: auto;
+  height: 30vh;
+  display: block;
+}
+
+.vibesImg {
+  background-image: url("VibesWhite.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .vibesImg {
+    background-image: url("VibesWhite.png");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10vw;
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: grid;
+    grid-template-columns: auto auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    justify-content: center;
+  }
+}
+
+.card {
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: .25rem;
+  justify-content: center;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#welcome {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+#divButton {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 300px) {
+  #vibesHeading {
+    display: flex;
+    color: rgb(0,0,0);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    letter-spacing: 2px;
+    font-family: 'Montserrat Bold';
+    text-align: center;
+    font-size: 3vh;
+    justify-content: center;
+    padding-left: 20PX;
+    padding-right: 20PX;
+  }
+}
+
+#imgVibe {
+  height: auto;
+  width: 100%;
+}
+
+#vibesNavBottom {
+  display: block;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+#h_viewEvent {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  font-weight: 100;
+}
+
+#h_EventLocation {
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-weight: 400;
+}
+
+#div_view_event_Information {
+  background-color: black;
+  padding: 30px;
+}
+
+#div_ViewEventsButtons {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#btn_Link_Vibes {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+#btn_Link_Vibes-1 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+#div_view_event_Details_more {
+  padding: 50px 10px;
+  display: grid;
+  text-align: center;
+  grid-template-rows: 50% 20% 10% 10%;
+  justify-content: center;
+  background-color: white;
+}
+
+#div_view_event_Details_Image_Holder {
+  background-color: white;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+#div_view_event_Details_more_information {
+  padding: 30px;
+}
+
+#vibesBtn {
+  background-image: url("../../assets/img/Share%20Icon.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+}
+
+#btnGetTicketsVibes {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+#div_view_event_Details_Image {
+  padding: 40px;
+}
+
+#div_view_event_Details_more_Price {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#div_view_event_Details_more_time {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+
+#div_view_event_Details_more_date {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+#div_view_event_Information_more_header {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+#div_view_event_Information_more_paragraph {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#div_view_event_Information_more {
+  display: grid;
+  place-items: center;
+}
+
+#div_view_event_Line_Up {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding-top: 90px;
+  margin-bottom: 5rem;
+}
+
+#div_view_event_Line_Up_heading {
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 10px;
+  font-size: 2rem;
+  font-family: 'Montserrat Light';
+}
+
+#nameOfArtist {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#div_view_event_Line_Up_artist {
+  padding: 50px 50px 20px 50px;
+  display: grid;
+  place-items: center;
+}
+
+#vibesMainDiv {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#vibesNav {
+  font-family: 'Montserrat light';
+  background-color: #000000;
+}
+
+@media (min-width:768px) {
+  .navbar-expand-md .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:768px) {
+  .navbar-expand-md .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: right;
+  }
+}
+
+#nameOfArtist {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat ExtraBold';
+  font-weight: 400;
+  font-size: 4vw;
+}
+
+#lineUnder {
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+  #cardsVibes {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media (min-width: 576px) {
+  #cardsVibes {
+    display: grid;
+    grid-template-columns: 49% 49%;
+  }
+}
+
+@media (min-width: 992px) {
+  #cardsVibes {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+#ArtistCard {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 31px;
+  padding-bottom: 32px;
+  padding-right: 2px;
+  padding-left: 2px;
+  background-color: transparent;
+  border: transparent;
+}
+
+@media (min-width: 1200px) {
+  #artistCardBody {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #vibesArtistCards {
+    display: grid;
+    grid-template-rows: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  #vibesArtistCards {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+@media (min-width: 300px) {
+  #vibesArtistCards {
+    display: grid;
+    grid-template-rows: auto;
+  }
+}
+
+#cardCities {
+  display: grid;
+  place-items: center;
+  grid-template-rows: 50% 50%;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  width: 100%;
+  height: 150px;
+}
+
+#cardCitiesImg {
+  background-color: black;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#cardCitiesButtons {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  place-items: center;
+}
+
+#cardCitiesHeading {
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: 'Montserrat;
+  color: rgb(255,255,255);
+}
+
+#cardCitieslbl {
+  padding-top: 2rem;
+}
+
+#cardCitiesBtn {
+  grid-template-rows: 30px auto;
+  margin-top: 4rem;
+}
+
+#cardCitiesLink {
+  position: relative;
+  top: -50px;
+}
+
+#stuff {
+  height: 100vh;
+}
+
+@media (min-width: 992px) {
+  #cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+#carouselBB {
+  height: 100vh;
+  background-color: #606060;
+}
+
+#artistDiv {
+  display: grid;
+  grid-template-rows: 70% 20%;
+  height: 100%;
+  place-items: center;
+}
+
+#artistImg {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  border: white solid 4px;
+}
+
+#divIntro {
+  height: 100vh;
+  background-color: rgb(0,0,0);
+}
+
+#artistName {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1rem;
+}
+
+@media (min-width: 300px) {
+  #vibesHeadingRooster {
+    font-family: 'Montserrat Medium';
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+}
+
+#artistVibes {
+  text-align: center;
+  border: transparent;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  border: none;
+  background-color: white;
+}
+
+#homeBtn {
+  font-family: 'Montserrat Medium';
+}
+
+#viewEventBtn {
+  font-family: 'Montserrat Medium';
+}
+
+#btnUpcoming {
+  font-family: 'Montserrat Medium';
+}
+
+#btnCategories {
+  font-family: 'Montserrat Medium';
+}
+
+#artistBtn {
+  font-family: 'Montserrat Medium';
+}
+
+.navbar.navbar-light.navbar-expand-md.vibesNavBottom {
+}
+
+.navbar.navbar-light.navbar-expand-md.vibesNavBottom {
+  position: fixed;
+  left: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  bottom: 0;
+  width: 100%;
+}
+
+#headingCalendar {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat Light';
+  height: 100%;
+}
+
+#cardBB {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  padding-right: 2px;
+  padding-left: 2px;
+  border: none;
+}
+
+@media (min-width: 300px) {
+  #cardsVibes {
+    background-color: rgb(255,246,228);
+    display: grid;
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+#sectionHousing {
+}
+
+#cardsDiv {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  margin-bottom: 5rem;
+  /*background-color: #e9e4d8;*/
+}
+
+#carousel {
+  height: 100vh;
+  background-color: #606060;
+  background-image: url("../../assets/img/christian-soler-MrQjZaosdCA-unsplash-2.jpg");
+  background-position: center;
+  background-size: 80%;
+}
+
+#vibesBody {
+  background-color: rgb(200,200,200);
+}
+
+#BBCard {
+}
+
+#box-3 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(i3.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#box-2 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../assets/img/jarritos-mexican-soda-moNvzYSbX7g-unsplash-3.jpg");
+  background-size: 100vh;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+#box-1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(i1.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#box-3 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../assets/img/jakob-owens-K6RyPzK24EM-unsplash-edit.jpg);
+  background-size: contain;
+  display: table;
+  background-attachment: fixed;
+}
+
+@media (min-width: 300px) {
+  #titleCalendar {
+    font-size: 6vw;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(24,20,20,0.58);
+    border: black 1px solid;
+  }
+}
+
+@media (min-width: 992px) {
+  #titleCalendar {
+    font-size: 3vw;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(24,20,20,0.58);
+    border: black 1px solid;
+  }
+}
+
+.footer-dark {
+  padding-bottom: 8rem;
+  color: #f0f9ff;
+  background-color: #000000;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 2rem;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
