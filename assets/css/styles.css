@@ -1,4 +1,30 @@
-.navbar.navbar-light.navbar-expand-md.BBNavbar {
+#headerDiv {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+#bbHeadingSmall {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+#bbHeaderPage {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Copperplate Gothic Std 32 AB';
+}
+
+#bbHeading {
+  font-family: arial black;
+  font-size: 80px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  font-family: 'Copperplate Gothic Std 32 BC';
 }
 
 @keyframes spin {
@@ -22,6 +48,7 @@
 .divOuter {
   width: 100%;
   position: fixed;
+  z-index: 1000;
   bottom: 0;
   display: grid;
   grid-template-columns: 60% auto;
@@ -67,9 +94,13 @@
   height: 100vh;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 30% 30% auto;
+  grid-template-rows: 70% auto;
   justify-content: center;
   padding: 10%;
+  background-image: url("../../assets/img/bold.jpg");
+  background-position: center;
+  background-size: 150vw;
+  background-repeat: no-repeat;
 }
 
 #BBButtonEnter {
