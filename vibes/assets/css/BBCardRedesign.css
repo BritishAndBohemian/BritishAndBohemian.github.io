@@ -321,3 +321,14 @@
   grid-template-rows: auto;
 }
 
+#imgDiv {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  border: white solid 4px;
+  background-image: url("../../assets/img/tumi.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
