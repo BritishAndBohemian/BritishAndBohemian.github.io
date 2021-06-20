@@ -483,7 +483,7 @@ body {
   height: 100%;
   place-items: center;
   background-color: rgb(102,75,46);
-  background-image: url("../../assets/img/krystal-ng-jRp60R7ogNQ-unsplash.jpg");
+  background-image: url("../../assets/img/colorpink.png");
   background-position: center;
 }
 
@@ -492,6 +492,7 @@ body {
   width: 250px;
   height: 250px;
   border: white solid 4px;
+  background-image: url("../../assets/img/TUMI.png");
 }
 
 #divIntro {
