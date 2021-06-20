@@ -226,6 +226,8 @@ body {
   border-radius: 100%;
   width: 150px;
   height: 150px;
+  background-image: url("../../assets/img/christian-soler-MrQjZaosdCA-unsplash-2.jpg");
+  background-size: 100%;
 }
 
 #div_view_event_Details_more_information {
@@ -254,8 +256,9 @@ body {
 }
 
 #div_view_event_Details_more_Price {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 2rem;
+  font-family: 'Montserrat Black Italic';
 }
 
 #div_view_event_Details_more_time {
@@ -479,6 +482,9 @@ body {
   grid-template-rows: 70% 20%;
   height: 100%;
   place-items: center;
+  background-color: rgb(102,75,46);
+  background-image: url("../../assets/img/krystal-ng-jRp60R7ogNQ-unsplash.jpg");
+  background-position: center;
 }
 
 #artistImg {
@@ -497,7 +503,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 300px) {
