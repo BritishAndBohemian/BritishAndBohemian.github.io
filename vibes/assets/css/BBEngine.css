@@ -494,6 +494,7 @@ body {
 }
 
 #artistName {
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 1rem;
@@ -541,6 +542,7 @@ body {
 
 .navbar.navbar-light.navbar-expand-md.vibesNavBottom {
   position: fixed;
+  z-index: 1000;
   left: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
