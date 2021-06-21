@@ -319,6 +319,7 @@
 .gridReponsive {
   display: grid;
   grid-template-rows: auto;
+  padding: 1rem;
 }
 
 #imgDiv {
@@ -339,7 +340,7 @@
   border: white solid 4px;
   background-image: url("../../assets/img/tumi.png");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 

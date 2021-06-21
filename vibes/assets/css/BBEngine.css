@@ -127,8 +127,9 @@ body {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 0.5rem;
-  border: none;
+  border: rgb(219,219,219) 1px solid;
   border-radius: 10px 10px 10px 10px;
+  min-width: 250px;
 }
 
 #welcome {
@@ -483,8 +484,7 @@ body {
   grid-template-rows: 70% 20%;
   height: 100%;
   place-items: center;
-  background-color: rgb(102,75,46);
-  background-image: url("../../assets/img/colorpink.png");
+  background-color: rgb(43,114,128);
   background-position: center;
 }
 
@@ -524,7 +524,8 @@ body {
   padding-bottom: 5rem;
   padding-top: 5rem;
   border: none;
-  background-color: white;
+  background-color: rgb(255,252,240);
+  padding: 5px;
 }
 
 #homeBtn {
