@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat Medium';
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.5rem;
+  border: none;
+}
+
+#divButton {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat Medium';
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.5rem;
+  border: none;
+}
+
+#divButton {
+  display: flex;
+  justify-content: center;
+}
+
+#BBCard {
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  background-color: white;
+}
+
+.gridThreeBB {
+  display: grid;
+  grid-template-rows: auto;
+  padding: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .gridThreeBB {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 4rem;
+  }
+}
+
+#divTable {
+}
+

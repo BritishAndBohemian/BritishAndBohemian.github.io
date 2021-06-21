@@ -1,0 +1,10 @@
+<svg id="Button" xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="Ellipse_1" data-name="Ellipse 1" fill="#fff" stroke="#000" stroke-width="2">
+    <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+    <circle cx="16.5" cy="16.5" r="15.5" fill="none"/>
+  </g>
+  <g id="_24px" data-name="24px" transform="translate(5 5)">
+    <path id="Path_1" data-name="Path 1" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="Path_2" data-name="Path 2" d="M12,4,10.59,5.41,16.17,11H4v2H16.17l-5.58,5.59L12,20l8-8Z"/>
+  </g>
+</svg>
