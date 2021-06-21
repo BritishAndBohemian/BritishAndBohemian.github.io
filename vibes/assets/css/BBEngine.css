@@ -796,3 +796,7 @@ body {
   opacity: 0.9;
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("24.svg");
+}
+
