@@ -147,13 +147,14 @@ body {
 @media (min-width: 300px) {
   #vibesHeading {
     display: flex;
-    color: rgb(0,0,0);
+    color: rgb(255,255,255);
     padding-top: 2rem;
     padding-bottom: 2rem;
     letter-spacing: 2px;
-    font-family: 'Montserrat Bold';
+    text-transform: uppercase;
+    font-family: 'Montserrat Light';
     text-align: center;
-    font-size: 3vh;
+    font-size: 40px;
     justify-content: center;
     padding-left: 20PX;
     padding-right: 20PX;
@@ -504,14 +505,16 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 0.8rem;
+  font-size: 2rem;
 }
 
 @media (min-width: 300px) {
   #vibesHeadingRooster {
     font-family: 'Montserrat Medium';
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 20px;
+    text-align: center;
+    color: white;
   }
 }
 
@@ -549,7 +552,7 @@ body {
 
 .navbar.navbar-light.navbar-expand-md.vibesNavBottom {
   position: fixed;
-  z-index: 1000;
+  z-index: 2000;
   left: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;

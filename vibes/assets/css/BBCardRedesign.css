@@ -103,7 +103,7 @@
   padding-left: 0.5rem;
   width: 100%;
   height: 150px;
-  background-image: url("jhb.webp");
+  background-image: url("../../assets/img/jhb.jpg");
   background-size: contain;
 }
 
@@ -322,6 +322,17 @@
 }
 
 #imgDiv {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  border: white solid 4px;
+  background-image: url("../../assets/img/tumi.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#artistDivImg {
   border-radius: 100%;
   width: 250px;
   height: 250px;
