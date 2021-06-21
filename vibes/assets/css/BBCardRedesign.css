@@ -45,6 +45,7 @@
   background-clip: border-box;
   border-radius: .25rem;
   justify-content: center;
+  border: none;
 }
 
 .card-body {
@@ -337,10 +338,18 @@
   border-radius: 100%;
   width: 250px;
   height: 250px;
-  border: white solid 4px;
-  background-image: url("../../assets/img/tumi.png");
+  border: rgb(0,0,0) solid 4px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: url("../../assets/img/tumi.jpg");
+}
+
+#artistCardBody {
+  background-color: rgb(255,255,255);
+}
+
+#tag {
+  color: white;
 }
 
