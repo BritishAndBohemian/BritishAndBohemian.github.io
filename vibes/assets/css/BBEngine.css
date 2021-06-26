@@ -9,11 +9,11 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000000;
   text-align: left;
   border: transparent;
   height: 100vh;
-  background-color: rgb(215,213,213);
+  background-color: rgb(255,255,255);
 }
 
 .navbar-light .navbar-toggler {
@@ -128,8 +128,6 @@ body {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 0.5rem;
-  border: rgb(219,219,219) 1px solid;
-  border-radius: 10px 10px 10px 10px;
   min-width: 250px;
 }
 
@@ -149,7 +147,7 @@ body {
 @media (min-width: 300px) {
   #vibesHeading {
     display: flex;
-    color: rgb(255,255,255);
+    color: rgb(0,0,0);
     padding-top: 9rem;
     padding-bottom: 2rem;
     letter-spacing: 2px;
@@ -484,7 +482,7 @@ body {
   grid-template-rows: 70% 20%;
   height: 100%;
   place-items: center;
-  background-color: rgb(158,208,218);
+  background-color: rgb(0,0,0);
   background-position: center;
 }
 
@@ -505,7 +503,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 300px) {
@@ -524,7 +522,7 @@ body {
     font-size: 1rem;
     padding: 23px;
     text-align: center;
-    color: white;
+    color: rgb(0,0,0);
     width: 64%;
     margin: auto;
   }
