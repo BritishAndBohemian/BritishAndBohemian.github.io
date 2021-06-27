@@ -147,7 +147,7 @@ body {
 @media (min-width: 300px) {
   #vibesHeading {
     display: flex;
-    color: rgb(0,0,0);
+    color: rgb(255,255,255);
     padding-top: 9rem;
     padding-bottom: 2rem;
     letter-spacing: 2px;
@@ -535,6 +535,7 @@ body {
   padding-top: 5rem;
   border: none;
   padding: 5px;
+  background-color: black;
 }
 
 #homeBtn {
