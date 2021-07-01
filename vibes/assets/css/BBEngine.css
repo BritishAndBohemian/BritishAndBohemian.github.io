@@ -126,7 +126,7 @@ body {
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  min-height: 1px;
+  min-height: 250px;
   padding: 0.5rem;
   min-width: 250px;
 }
@@ -642,6 +642,9 @@ body {
   background-position: center;
   display: table;
   background-attachment: fixed;
+  background-image: url("../../assets/img/alvin-balemesa-MYfq3tf34p8-unsplash.jpg");
+  background-position: center;
+  background-size: contain;
 }
 
 #box-1 {
@@ -796,5 +799,14 @@ body {
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("24.svg");
+}
+
+@media (min-width:768px) {
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 2rem;
+  }
 }
 

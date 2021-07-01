@@ -350,6 +350,7 @@
 
 #tag {
   color: white;
+  padding: 10px;
 }
 
 #UpcomingEvents {
@@ -360,5 +361,25 @@
   margin-bottom: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.card.BBCardLarge {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 31px;
+  padding-bottom: 32px;
+  padding-right: 2px;
+  padding-left: 2px;
+  background-color: transparent;
+}
+
+#information {
+  font-size: 10px;
+}
+
+#headingCards {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
