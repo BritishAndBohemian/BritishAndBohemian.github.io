@@ -426,7 +426,6 @@ body {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   width: 100%;
-  height: 150px;
 }
 
 #cardCitiesImg {
@@ -607,7 +606,7 @@ body {
   place-items: center;
   width: 100%;
   margin-bottom: 5rem;
-  /*background-color: #e9e4d8;*/
+  background-color: #b0b0b0;
 }
 
 #carousel {
@@ -659,7 +658,6 @@ body {
 #box-3 {
   height: 100vh;
   width: 100%;
-  background-image: url(../../assets/img/imgcaro2.jpg);
   background-size: contain;
   display: table;
   background-attachment: fixed;
@@ -835,5 +833,28 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-size: 1rem;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+.cardTextBody {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.cardHeading {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.cardTextBody {
+  font-size: 0.9rem;
+}
+
+.carddivButton {
+  display: flex;
+  justify-content: center;
 }
 
