@@ -374,12 +374,32 @@
 }
 
 #information {
-  font-size: 10px;
 }
 
 #headingCards {
   text-align: center;
   text-transform: uppercase;
   font-size: 10px;
+}
+
+.informationCardtext {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.informationCardbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.informationCardHeading {
+  text-align: center;
+  font-family: 'Montserrat Medium';
+  font-size: 25px;
+  word-wrap: normal;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
