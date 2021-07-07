@@ -284,6 +284,9 @@ body {
   padding: 50px 50px 20px 50px;
   display: grid;
   place-items: center;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 #vibesMainDiv {
@@ -567,6 +570,7 @@ body {
 }
 
 #sectionHousing {
+  background-color: rgb(195,195,195);
 }
 
 #cardsDiv {
@@ -664,7 +668,7 @@ body {
   font-size: 20px;
   color: white;
   text-transform: uppercase;
-  background-color: rgba(24,20,20,0.9);
+  background-color: rgba(217,143,0,0.95);
   border: black 1px solid;
   letter-spacing: 2px;
   font-family: 'Montserrat Light';
@@ -687,7 +691,7 @@ body {
 .footer-dark {
   padding-bottom: 8rem;
   color: #f0f9ff;
-  background-color: #000000;
+  background-color: #1b1b1b;
 }
 
 .footer-dark h3 {
