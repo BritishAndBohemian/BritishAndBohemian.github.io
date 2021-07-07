@@ -421,9 +421,8 @@
   height: 100vh;
   width: 100%;
   background-size: 100vh;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
-  background-position: center;
   background-size: cover;
   padding-top: 5rem;
   color: white;
@@ -437,5 +436,16 @@
   text-transform: uppercase;
   letter-spacing: 5px;
   padding: 4rem;
+}
+
+.bbEngine {
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+
+.imgBBLogo {
+  width: 50px;
+  height: auto;
 }
 
