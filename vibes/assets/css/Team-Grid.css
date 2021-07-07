@@ -48,6 +48,8 @@
   height: 280px;
   position: relative;
   overflow: hidden;
+  background-color: rgb(77,77,77);
+  background-image: url("");
 }
 
 .team-grid .item .cover {
