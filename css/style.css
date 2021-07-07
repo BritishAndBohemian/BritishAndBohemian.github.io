@@ -1,0 +1,222 @@
+/* Comment class   */
+
+
+/*  body Default Tags  */
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 98vh;
+    background-color: white;
+}
+
+
+/* Main Section */
+
+
+/* MainPageClass Covers entire body
+____________________
+*/
+
+.mainpage {
+    margin: auto;
+    height: 98vh;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    place-items: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+/* Container Center Holds the middle content together */
+
+.containerCenter {
+    display: grid;
+    grid-template-rows: auto auto;
+    place-items: center;
+}
+
+
+/* Culture Badge Attends to desktop First */
+
+.CultureBadge {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat Light';
+    letter-spacing: 25px;
+    /* Padding is to offSet the letter Spacing */
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .CultureBadge {
+        font-size: 2vh;
+        color: white;
+        font-family: 'Montserrat Light';
+        letter-spacing: 20px;
+        /* Padding is to offSet the letter Spacing */
+        padding-left: 20px;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .CultureBadge {
+        font-size: 2.5vh;
+        color: white;
+        font-family: 'Montserrat Light';
+        letter-spacing: 20px;
+        /* Padding is to offSet the letter Spacing */
+        padding-left: 25px;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
+
+.NavWrap {
+    margin: 2rem 0;
+}
+
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+}
+
+header a,
+header label {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+header a:hover,
+header label:hover {
+    color: #aaa;
+}
+
+header label {
+    float: right;
+    padding: 18px 20px;
+    cursor: pointer;
+}
+
+header label:after {
+    content: "\2261";
+    font-size: 1.8em;
+}
+
+.logo {
+    float: left;
+    font-weight: 100;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+nav {
+    float: right;
+    max-height: 0;
+    width: 100%;
+    -webkit-transition: max-height 0.3s;
+    -moz-transition: max-height 0.3s;
+    -o-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+nav li {
+    display: block;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px;
+    width: 100%;
+}
+
+#nav {
+    display: none;
+}
+
+
+/* Media Query navbar    */
+
+@media only screen and (min-width: 700px) {
+    header label {
+        display: none;
+    }
+    nav {
+        width: auto;
+        max-height: none;
+    }
+    nav ul {
+        padding: 0;
+        padding-right: 10px;
+    }
+    nav li {
+        display: inline-block;
+        text-align: left;
+    }
+    header nav a {
+        display: inline-block;
+        padding: 20px 10px;
+        width: auto;
+    }
+}
+
+
+/* Herrreeee herrereeeee cultures badge created and authored by NF Masombuka & K Mosia */
+
+
+/* Badge Cultures Badge   */
+
+.badge {
+    width: 110px;
+    height: auto;
+}
+
+#nav:checked~nav {
+    max-height: 200px;
+    /* This can be anything bigger than your nav height. The transition duration works with this */
+}
+
+.clsMessage {
+    height: 70%;
+    width: 100%;
+    background-color: #fff;
+}
