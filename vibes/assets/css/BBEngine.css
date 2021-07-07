@@ -147,7 +147,7 @@ body {
 @media (min-width: 300px) {
   #vibesHeading {
     display: flex;
-    color: rgb(255,255,255);
+    color: rgb(0,0,0);
     padding-top: 9rem;
     padding-bottom: 2rem;
     letter-spacing: 2px;
@@ -511,7 +511,7 @@ body {
     font-size: 1rem;
     padding: 23px;
     text-align: center;
-    color: white;
+    color: rgb(0,0,0);
   }
 }
 
@@ -534,7 +534,7 @@ body {
   padding-top: 5rem;
   border: none;
   padding: 5px;
-  background-color: black;
+  background-color: rgb(255,255,255);
 }
 
 #homeBtn {
@@ -624,26 +624,41 @@ body {
 #BBCard {
 }
 
-#box-3 {
-  height: 100vh;
-  width: 100%;
-  background-image: url(i3.jpg);
-  background-size: cover;
-  display: table;
-  background-attachment: fixed;
-}
-
 #box-2 {
   height: 100vh;
   width: 100%;
-  background-image: url("../../assets/img/imgcaro1.jpg");
+  background-image: url("../../assets/img/Pexels-rfstudio-3886347.jpg");
   background-size: 100vh;
   background-position: center;
-  display: table;
   background-attachment: fixed;
-  background-image: url("../../assets/img/alvin-balemesa-MYfq3tf34p8-unsplash.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  padding-top: 5rem;
+  color: white;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  #box-3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/img/pexels-lucas-da-miranda-1982966.jpg");
+    background-size: 100vh;
+    background-position: top;
+    display: table;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+    padding-top: 5rem;
+    color: white;
+    display: grid;
+    place-items: end;
+    padding-right: 15rem;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
 }
 
 #box-1 {
@@ -658,7 +673,8 @@ body {
 #box-3 {
   height: 100vh;
   width: 100%;
-  background-size: contain;
+  background-image: url("../../assets/img/caique-silva-y0Y_w-Dm4cg-unsplash.jpg");
+  background-size: cover;
   display: table;
   background-attachment: fixed;
 }
@@ -827,12 +843,14 @@ body {
 #welcomeHeading {
   text-align: center;
   text-transform: uppercase;
+  font-size: 3rem;
 }
 
 #welcomeHeadingsmall {
   text-align: center;
   text-transform: uppercase;
   font-size: 1rem;
+  letter-spacing: 10px;
 }
 
 .cardImg {
@@ -856,5 +874,43 @@ body {
 .carddivButton {
   display: flex;
   justify-content: center;
+}
+
+#cardsArtists {
+  margin-bottom: 5rem;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #000000;
+  border-color: #ffffff;
+  background-color: black;
+  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: white;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
 }
 
