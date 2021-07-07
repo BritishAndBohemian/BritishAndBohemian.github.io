@@ -79,38 +79,6 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  .card {
-    position: relative;
-    display: -ms-flexbox;
-    display: grid;
-    grid-template-columns: auto auto;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border-radius: .25rem;
-    justify-content: center;
-  }
-}
-
-@media (min-width: 1200px) {
-  .card {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border-radius: .25rem;
-    justify-content: center;
-  }
-}
-
 .card {
   display: -ms-flexbox;
   -ms-flex-direction: column;
@@ -147,7 +115,7 @@ body {
 @media (min-width: 300px) {
   #vibesHeading {
     display: flex;
-    color: rgb(0,0,0);
+    color: rgb(255,255,255);
     padding-top: 9rem;
     padding-bottom: 2rem;
     letter-spacing: 2px;
