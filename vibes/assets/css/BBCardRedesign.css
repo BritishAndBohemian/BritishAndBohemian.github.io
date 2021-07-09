@@ -423,7 +423,7 @@
   background-size: 100vh;
   background-position: center;
   background-attachment: fixed;
-  background-size: 37%;
+  background-size: contain;
   padding-top: 5rem;
   color: white;
   display: grid;
