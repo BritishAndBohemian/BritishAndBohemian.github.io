@@ -403,6 +403,7 @@
 }
 
 #divInner {
+  margin-bottom: 3rem;
 }
 
 .btnDiv {
@@ -421,14 +422,14 @@
   height: 100vh;
   width: 100%;
   background-size: 100vh;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   background-size: contain;
   padding-top: 5rem;
   color: white;
   display: grid;
   place-items: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .headingBB {
