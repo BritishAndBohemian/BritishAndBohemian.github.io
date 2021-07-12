@@ -9,6 +9,7 @@ body {
     background-position: center;
     height: 98vh;
     background-color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -28,6 +29,17 @@ ____________________
     place-items: center;
     align-items: center;
     background-color: black;
+}
+
+
+/* Culture Li */
+
+.CultureUL li {
+    font-weight: light;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    padding-left: 2rem;
 }
 
 
