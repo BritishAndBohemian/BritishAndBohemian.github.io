@@ -1,19 +1,23 @@
 * {
   box-sizing: border-box;
   font-family: 'Montserrat Medium';
+  background-color: transparent;
 }
 
 body {
   margin: 0;
+  place-items: center;
+  height: 100vh;
+  grid-template-columns: auto auto;
   font-family: 'Montserrat';
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #ffffff;
+  color: #fbfbfb;
   text-align: left;
   border: transparent;
   height: 100vh;
-  background-color: rgb(0,0,0);
+  background-color: black;
 }
 
 /* Animations */
@@ -99,12 +103,16 @@ body {
   display: -ms-flexbox;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-width: 0;
+  min-width: 315px;
   word-wrap: break-word;
-  background-color: #fff;
   background-clip: border-box;
   border-radius: .25rem;
   justify-content: center;
+  background-color: transparent;
+  border: rgb(255,255,255) 1px solid;
+  border-style: outset;
+  background-color: rgb(0,0,0);
+  color: black;
 }
 
 .card-body {
@@ -112,7 +120,7 @@ body {
   flex: 1 1 auto;
   min-height: 250px;
   padding: 0.5rem;
-  min-width: 250px;
+  min-width: 315px;
 }
 
 #welcome {
@@ -182,7 +190,7 @@ body {
 #div_ViewEventsButtons {
   display: grid;
   grid-template-columns: auto auto;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #d523b9, #d58e23);
   background-size: 400% 400%;
   animation: gradient 2s cubic-bezier(.79,.14,.15,.86) infinite;
 }
@@ -325,7 +333,7 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  width: 100vw;
+  justify-content: center;
 }
 
 #vibesNav {
@@ -531,13 +539,11 @@ body {
 }
 
 #artistVibes {
-  margin-top: 5rem;
   text-align: center;
   border: transparent;
   padding-bottom: 5rem;
   padding-top: 5rem;
   border: none;
-  padding: 5px;
   background-color: rgb(255,255,255);
 }
 
@@ -834,7 +840,6 @@ body {
 }
 
 .bbCards-3 {
-  background-color: rgb(255,255,255);
 }
 
 .currentDate {
@@ -864,6 +869,7 @@ body {
 .cardTextBody {
   text-align: center;
   padding-top: 1rem;
+  color: white;
 }
 
 .cardHeading {
