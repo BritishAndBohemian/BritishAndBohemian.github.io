@@ -429,7 +429,7 @@
   color: white;
   display: grid;
   place-items: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .headingBB {
@@ -468,5 +468,9 @@
   background: linear-gradient(-45deg, #ee7752, #055a98, #c5170b, #ff8a00);
   background-size: 400% 400%;
   animation: gradient 2s cubic-bezier(.79,.14,.15,.86) infinite;
+}
+
+#BBLargeCards {
+  background-color: rgb(42,42,42);
 }
 
