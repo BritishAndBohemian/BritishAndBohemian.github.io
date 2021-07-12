@@ -851,7 +851,9 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-size: 3rem;
-  color: black;
+  color: rgb(255,255,255);
+  background-color: black;
+  padding: 5px;
 }
 
 #welcomeHeadingsmall {
@@ -859,7 +861,9 @@ body {
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 5px;
-  color: black;
+  color: rgb(255,255,255);
+  background-color: black;
+  display: inline;
 }
 
 .cardImg {
