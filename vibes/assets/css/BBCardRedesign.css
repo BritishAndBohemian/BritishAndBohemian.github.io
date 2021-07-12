@@ -421,12 +421,13 @@
 .imgCarousel {
   height: 100vh;
   width: 100%;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
   padding-top: 5rem;
   color: white;
+  background-repeat: repeat;
   display: grid;
   place-items: center;
   align-items: center;
