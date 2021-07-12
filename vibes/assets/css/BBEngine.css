@@ -520,7 +520,7 @@ body {
     font-size: 1rem;
     padding: 23px;
     text-align: center;
-    color: rgb(0,0,0);
+    color: rgb(255,255,255);
   }
 }
 
@@ -542,7 +542,7 @@ body {
   padding-bottom: 5rem;
   padding-top: 5rem;
   border: none;
-  background-color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
 }
 
 #homeBtn {
