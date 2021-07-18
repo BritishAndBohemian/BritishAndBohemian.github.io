@@ -70,7 +70,8 @@
 }
 
 .team-grid .item .name {
-    font-weight: bold;
+    font-weight: light;
+    letter-spacing: 2px;
     margin-bottom: 8px;
 }
 
