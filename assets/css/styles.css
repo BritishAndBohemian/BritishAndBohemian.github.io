@@ -103,10 +103,11 @@
   grid-template-rows: 60% 10% 20%;
   justify-content: center;
   padding: 10%;
-  background-image: url("../../assets/img/Ad.jpg");
+  background-image: url("../../assets/img/");
   background-position: center;
   background-size: 100%;
   background-repeat: repeat;
+    background-color: black;
 }
 
 #BBButtonEnter {

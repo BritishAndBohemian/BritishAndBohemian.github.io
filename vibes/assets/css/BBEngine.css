@@ -1,930 +1,955 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Montserrat Medium';
-  background-color: transparent;
+    box-sizing: border-box;
+    font-family: 'Montserrat Medium';
+    background-color: transparent;
 }
 
 body {
-  margin: 0;
-  place-items: center;
-  height: 100vh;
-  grid-template-columns: auto auto;
-  font-family: 'Montserrat';
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #fbfbfb;
-  text-align: left;
-  border: transparent;
-  height: 100vh;
-  background-color: black;
+    margin: 0;
+    place-items: center;
+    height: 100vh;
+    grid-template-columns: auto auto;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fbfbfb;
+    text-align: left;
+    border: transparent;
+    height: 100vh;
+    background-color: black;
 }
+
 
 /* Animations */
 
 @keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
+
 
 /* _______________ */
 
 .navbar-light .navbar-toggler {
-  color: rgba(255,255,255,0.5);
-  border-color: rgba(0,0,0,.1);
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(0, 0, 0, .1);
 }
 
 .navbar-light .navbar-toggler {
-  color: #ffffff;
-  border-color: rgba(0,0,0,.1);
+    color: #ffffff;
+    border-color: rgba(0, 0, 0, .1);
 }
 
 .img-fluid.vibes {
-  background-image: url("VibesWhite.png");
-  width: 100vw;
-  height: 100vh;
-  background-position: center;
-  background-size: 150px;
+    background-image: url("VibesWhite.png");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: 150px;
 }
 
 @media (min-width: 1200px) {
-  .vibesimg {
-    width: auto;
-    height: 30vh;
-    margin-top: 20%;
-    display: block;
-  }
+    .vibesimg {
+        width: auto;
+        height: 30vh;
+        margin-top: 20%;
+        display: block;
+    }
 }
 
 .vibesDiv {
-  width: 100vw;
-  height: 100vh;
-  margin: auto;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
 }
 
 .vibesimg {
-  width: auto;
-  height: 30vh;
-  display: block;
+    width: auto;
+    height: 30vh;
+    display: block;
 }
 
 .vibesImg {
-  background-image: url("VibesWhite.png");
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 30vw;
-  display: flex;
-  justify-content: center;
-}
-
-@media (min-width: 1200px) {
-  .vibesImg {
     background-image: url("VibesWhite.png");
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 10vw;
-    display: grid;
-    place-items: center;
-  }
+    background-size: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    .vibesImg {
+        background-image: url("VibesWhite.png");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 10vw;
+        display: grid;
+        place-items: center;
+    }
 }
 
 .card {
-  display: -ms-flexbox;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 315px;
-  word-wrap: break-word;
-  background-clip: border-box;
-  border-radius: .25rem;
-  justify-content: center;
-  background-color: transparent;
-  background-color: rgb(29,29,29);
-  color: black;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 315px;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: .25rem;
+    justify-content: center;
+    background-color: transparent;
+    background-color: rgb(29, 29, 29);
+    color: black;
 }
 
 .card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  min-height: 250px;
-  padding: 0.5rem;
-  min-width: 315px;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 250px;
+    padding: 0.5rem;
+    min-width: 315px;
 }
 
 #welcome {
-  margin: auto;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 #divButton {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 #vibesHeading {
-  color: rgb(0,0,0);
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-family: 'Montserrat ExtraLight';
-  text-align: center;
-  font-size: 50px;
-  justify-content: center;
-  padding-left: 20PX;
-  padding-right: 20PX;
-  display: inline-block;
-  border: rgb(168,168,168) solid 1px;
-  background-color: #ffffff;
-  box-shadow: rgba(110,110,110,0.68) 0px 1px 4px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Montserrat ExtraLight';
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    display: inline-block;
+    border: rgb(168, 168, 168) solid 1px;
+    background-color: #ffffff;
+    box-shadow: rgba(110, 110, 110, 0.68) 0px 1px 4px;
 }
 
 #imgVibe {
-  height: auto;
-  width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 #vibesNavBottom {
-  display: block;
-  position: sticky;
-  width: 100%;
-  bottom: 0;
-  left: 0;
+    display: block;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 #h_viewEvent {
-  text-align: center;
-  font-size: 1.5rem;
-  background-color: black;
-  color: white;
-  font-weight: 100;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    font-weight: 100;
 }
 
 #h_EventLocation {
-  text-align: center;
-  font-size: 0.8rem;
-  background-color: black;
-  color: white;
-  padding: 30px;
-  font-weight: 400;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-weight: 400;
 }
 
 #div_view_event_Information {
-  background-color: black;
-  padding: 30px;
+    background-color: black;
+    padding: 30px;
 }
 
 #div_ViewEventsButtons {
-  display: grid;
-  grid-template-columns: auto auto;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #d523b9, #d58e23);
-  background-size: 400% 400%;
-  animation: gradient 2s cubic-bezier(.79,.14,.15,.86) infinite;
+    display: grid;
+    grid-template-columns: auto auto;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #d523b9, #d58e23);
+    background-size: 400% 400%;
+    animation: gradient 2s cubic-bezier(.79, .14, .15, .86) infinite;
 }
 
 #btn_Link_Vibes {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 #btn_Link_Vibes-1 {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 #div_view_event_Details_more {
-  padding: 50px 10px;
-  display: grid;
-  text-align: center;
-  grid-template-rows: 50% 20% 10% 10%;
-  justify-content: center;
-}
-
-@media (min-width: 992px) {
-  #div_view_event_Details_more {
     padding: 50px 10px;
     display: grid;
     text-align: center;
-    grid-template-columns: auto auto;
-    grid-gap: 2rem;
-  }
+    grid-template-rows: 50% 20% 10% 10%;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    #div_view_event_Details_more {
+        padding: 50px 10px;
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto auto;
+        grid-gap: 2rem;
+    }
 }
 
 #div_view_event_Details_Image_Holder {
-  background-color: white;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  background-image: url("../../assets/img/christian-soler-MrQjZaosdCA-unsplash-2.jpg");
-  background-size: cover;
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url("../../assets/img/christian-soler-MrQjZaosdCA-unsplash-2.jpg");
+    background-size: cover;
 }
 
 #div_view_event_Details_more_information {
-  padding: 30px;
-  display: grid;
-  justify-content: space-between;
+    padding: 30px;
+    display: grid;
+    justify-content: space-between;
 }
 
 #vibesBtn {
-  background-image: url("../../assets/img/Share%20Icon.svg");
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: center;
-  width: 50px;
-  height: 50px;
-  background-color: transparent;
-  border: none;
+    background-image: url("../../assets/img/Share%20Icon.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
 }
 
 #btnGetTicketsVibes {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 #div_view_event_Details_Image {
-  padding: 40px;
+    padding: 40px;
 }
 
 #div_view_event_Details_more_Price {
-  font-weight: bolder;
-  font-size: 2rem;
-  font-family: 'Montserrat Black';
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: 'Montserrat Black';
 }
 
 #div_view_event_Details_more_time {
-  text-transform: uppercase;
-  font-size: 1rem;
-  margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 2rem;
 }
 
 #div_view_event_Details_more_date {
-  text-transform: uppercase;
-  font-size: 1rem;
-  margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 2rem;
 }
 
 #div_view_event_Information_more_header {
-  text-align: center;
-  font-size: 2.0rem;
-  text-transform: uppercase;
-  padding: 20px;
-  font-weight: 400;
+    text-align: center;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 400;
 }
 
 #div_view_event_Information_more_paragraph {
-  padding: 22px;
-  text-align: center;
-  font-size: 0.9rem;
+    padding: 22px;
+    text-align: center;
+    font-size: 0.9rem;
 }
 
 #div_view_event_Information_more {
-  display: grid;
-  place-items: center;
-  justify-content: center;
+    display: grid;
+    place-items: center;
+    justify-content: center;
 }
 
 #div_view_event_Line_Up {
-  display: grid;
-  place-items: center;
-  text-align: center;
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
 }
 
 #div_view_event_Line_Up_heading {
-  text-transform: uppercase;
-  font-weight: 100;
-  letter-spacing: 10px;
-  font-size: 2rem;
-  font-family: 'Montserrat Light';
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 2rem;
+    font-family: 'Montserrat Light';
 }
 
 #nameOfArtist {
-  font-size: 20px;
-  text-transform: uppercase;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 #div_view_event_Line_Up_artist {
-  padding: 50px 50px 20px 50px;
-  display: grid;
-  place-items: center;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: contain;
+    padding: 50px 50px 20px 50px;
+    display: grid;
+    place-items: center;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 #vibesMainDiv {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  justify-content: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    justify-content: center;
 }
 
 #vibesNav {
-  font-family: 'Montserrat light';
-  background-color: #000000;
+    font-family: 'Montserrat light';
+    background-color: #000000;
 }
 
 @media (min-width:768px) {
-  .navbar-expand-md .navbar-nav {
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
+    .navbar-expand-md .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
 }
 
 @media (min-width:768px) {
-  .navbar-expand-md .navbar-collapse {
-    display: -ms-flexbox!important;
-    display: flex!important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-    justify-content: right;
-  }
+    .navbar-expand-md .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        justify-content: right;
+    }
 }
 
 #nameOfArtist {
-  text-align: center;
-  letter-spacing: 2px;
-  margin-bottom: 1rem;
-  font-family: 'Montserrat ExtraBold';
-  font-weight: 400;
-  font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat ExtraBold';
+    font-weight: 400;
+    font-size: 20px;
 }
 
 #lineUnder {
-  margin: auto;
+    margin: auto;
 }
 
 @media (min-width: 992px) {
-  #cardsVibes {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-  }
+    #cardsVibes {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
 }
 
 @media (min-width: 576px) {
-  #cardsVibes {
-    display: grid;
-    grid-template-columns: 49% 49%;
-  }
+    #cardsVibes {
+        display: grid;
+        grid-template-columns: 49% 49%;
+    }
 }
 
 @media (min-width: 992px) {
-  #cardsVibes {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-  }
+    #cardsVibes {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
 }
 
 #ArtistCard {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding-top: 31px;
-  padding-bottom: 32px;
-  padding-right: 2px;
-  padding-left: 2px;
-  background-color: transparent;
-  border: transparent;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 31px;
+    padding-bottom: 32px;
+    padding-right: 2px;
+    padding-left: 2px;
+    background-color: transparent;
+    border: transparent;
 }
 
 @media (min-width: 1200px) {
-  #artistCardBody {
-  }
+    #artistCardBody {}
 }
 
 @media (min-width: 1200px) {
-  #vibesArtistCards {
-    display: grid;
-    grid-template-rows: auto;
-    width: 100%;
-  }
+    #vibesArtistCards {
+        display: grid;
+        grid-template-rows: auto;
+        width: 100%;
+    }
 }
 
 @media (min-width: 576px) {
-  #vibesArtistCards {
-    display: grid;
-    grid-template-columns: auto;
-  }
+    #vibesArtistCards {
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
 
 @media (min-width: 300px) {
-  #vibesArtistCards {
-    display: grid;
-    grid-template-rows: auto;
-  }
+    #vibesArtistCards {
+        display: grid;
+        grid-template-rows: auto;
+    }
 }
 
 #cardCities {
-  display: grid;
-  place-items: center;
-  grid-template-rows: 50% 50%;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 50% 50%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    width: 100%;
 }
 
 #cardCitiesImg {
-  background-color: black;
-  border-radius: 5px 0px 0px 5px;
+    background-color: black;
+    border-radius: 5px 0px 0px 5px;
 }
 
 #cardCitiesButtons {
-  display: grid;
-  grid-template-rows: 50% 50%;
-  place-items: center;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    place-items: center;
 }
 
 #cardCitiesHeading {
-  font-size: 1rem;
-  font-weight: 100;
-  font-family: 'Montserrat;
-  color: rgb(255,255,255);
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Montserrat;
+ color: rgb(255, 255, 255);
 }
 
 #cardCitieslbl {
-  padding-top: 2rem;
+    padding-top: 2rem;
 }
 
 #cardCitiesBtn {
-  grid-template-rows: 30px auto;
-  margin-top: 4rem;
+    grid-template-rows: 30px auto;
+    margin-top: 4rem;
 }
 
 #cardCitiesLink {
-  position: relative;
-  top: -50px;
+    position: relative;
+    top: -50px;
 }
 
 #stuff {
-  height: 100vh;
+    height: 100vh;
 }
 
 @media (min-width: 992px) {
-  #cards {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
+    #cards {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
 
 #carouselBB {
-  height: 100vh;
-  background-color: #606060;
+    height: 100vh;
+    background-color: #606060;
 }
 
 #artistDiv {
-  display: grid;
-  grid-template-rows: 70% 20%;
-  height: 100%;
-  place-items: center;
-  background-color: rgb(0,0,0);
-  background-position: center;
+    display: grid;
+    grid-template-rows: 70% 20%;
+    height: 100%;
+    place-items: center;
+    background-color: rgb(0, 0, 0);
+    background-position: center;
 }
 
 #artistImg {
-  border-radius: 100%;
-  width: 250px;
-  height: 250px;
-  border: white solid 4px;
-  background-image: url("../../assets/img/tumi.png");
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    border: white solid 4px;
+    background-image: url("../../assets/img/tumi.png");
 }
 
 #divIntro {
-  height: 100vh;
-  background-color: rgb(0,0,0);
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
 }
 
 #artistName {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
 }
 
 @media (min-width: 300px) {
-  #vibesHeadingRooster {
-    font-family: 'Montserrat Light';
-    font-size: 1rem;
-    padding: 23px;
-    text-align: center;
-    color: rgb(255,255,255);
-  }
+    #vibesHeadingRooster {
+        font-family: 'Montserrat Light';
+        font-size: 1rem;
+        padding: 23px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
 }
 
 @media (min-width: 1200px) {
-  #vibesHeadingRooster {
-    font-family: 'Montserrat Medium';
-    font-size: 1rem;
-    padding: 23px;
-    text-align: center;
-    color: rgb(0,0,0);
-    width: 64%;
-    margin: auto;
-  }
+    #vibesHeadingRooster {
+        font-family: 'Montserrat Medium';
+        font-size: 1rem;
+        padding: 23px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        width: 64%;
+        margin: auto;
+    }
 }
 
 #artistVibes {
-  text-align: center;
-  border: transparent;
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-  border: none;
-  background-color: rgb(0,0,0);
+    text-align: center;
+    border: transparent;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    border: none;
+    background-color: rgb(0, 0, 0);
 }
 
 #homeBtn {
-  font-family: 'Montserrat Medium';
+    font-family: 'Montserrat Medium';
 }
 
 #viewEventBtn {
-  font-family: 'Montserrat Medium';
+    font-family: 'Montserrat Medium';
 }
 
 #btnUpcoming {
-  font-family: 'Montserrat Medium';
+    font-family: 'Montserrat Medium';
 }
 
 #btnCategories {
-  font-family: 'Montserrat Medium';
+    font-family: 'Montserrat Medium';
 }
 
 #artistBtn {
-  font-family: 'Montserrat Medium';
+    font-family: 'Montserrat Medium';
 }
 
-.navbar.navbar-light.navbar-expand-md.vibesNavBottom {
-}
+.navbar.navbar-light.navbar-expand-md.vibesNavBottom {}
 
 .navbar.navbar-light.navbar-expand-md.vibesNavBottom {
-  position: fixed;
-  z-index: 2000;
-  left: 0;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  bottom: 0;
-  width: 100%;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    bottom: 0;
+    width: 100%;
 }
 
 #headingCalendar {
-  font-size: 1rem;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Montserrat Light';
-  height: 100%;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat Light';
+    height: 100%;
 }
 
 #cardBB {
-  padding-top: 30px;
-  padding-bottom: 80px;
-  padding-right: 2px;
-  padding-left: 2px;
-  border: none;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-right: 2px;
+    padding-left: 2px;
+    border: none;
 }
 
 @media (min-width: 300px) {
-  #cardsVibes {
-    background-color: rgb(228,233,233);
-    display: grid;
-    padding-top: 0rem;
-    padding-bottom: 4rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+    #cardsVibes {
+        background-color: rgb(228, 233, 233);
+        display: grid;
+        padding-top: 0rem;
+        padding-bottom: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
 #sectionHousing {
-  background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
 
 #cardsDiv {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  margin-bottom: 5rem;
-  background-color: #b0b0b0;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    margin-bottom: 5rem;
+    background-color: #b0b0b0;
 }
 
 #carousel {
-  height: 100vh;
-  background-color: #606060;
-  background-position: center;
-  background-size: 80%;
+    height: 100vh;
+    background-color: #606060;
+    background-position: center;
+    background-size: 80%;
 }
 
 #vibesBody {
-  background-color: rgb(200,200,200);
+    background-color: rgb(200, 200, 200);
 }
 
-#BBCard {
-}
+#BBCard {}
 
 #box-2 {
-  height: 100vh;
-  width: 100%;
-  background-image: url("../../assets/img/Pexels-rfstudio-3886347.jpg");
-  background-size: 100vh;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  padding-top: 5rem;
-  color: white;
-  display: grid;
-  place-items: center;
-  align-items: center;
-}
-
-@media (min-width: 1200px) {
-  #box-3 {
     height: 100vh;
     width: 100%;
-    background-image: url("../../assets/img/pexels-lucas-da-miranda-1982966.jpg");
+    background-image: url("../../assets/img/Pexels-rfstudio-3886347.jpg");
     background-size: 100vh;
-    background-position: top;
-    display: table;
+    background-position: center;
     background-attachment: fixed;
-    background-position: left;
+    background-position: center;
     background-size: cover;
     padding-top: 5rem;
     color: white;
     display: grid;
-    place-items: end;
-    padding-right: 15rem;
+    place-items: center;
     align-items: center;
-    background-repeat: no-repeat;
-  }
+}
+
+@media (min-width: 1200px) {
+    #box-3 {
+        height: 100vh;
+        width: 100%;
+        background-image: url("../../assets/img/pexels-lucas-da-miranda-1982966.jpg");
+        background-size: 100vh;
+        background-position: top;
+        display: table;
+        background-attachment: fixed;
+        background-position: left;
+        background-size: cover;
+        padding-top: 5rem;
+        color: white;
+        display: grid;
+        place-items: end;
+        padding-right: 15rem;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
 }
 
 #box-1 {
-  height: 100vh;
-  width: 100%;
-  background-image: url(i1.jpg);
-  background-size: cover;
-  display: table;
-  background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-image: url(i1.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 
 #box-3 {
-  height: 100vh;
-  width: 100%;
-  background-image: url("../../assets/img/caique-silva-y0Y_w-Dm4cg-unsplash.jpg");
-  background-size: cover;
-  display: table;
-  background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/img/caique-silva-y0Y_w-Dm4cg-unsplash.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 
 @media (min-width: 300px) {
-  #titleCalendar {
+    #titleCalendar {
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        background-color: rgba(24, 20, 20, 0.9);
+        border: black 1px solid;
+        letter-spacing: 2px;
+        font-family: 'Montserrat Light';
+        padding: 20px;
+    }
+}
+
+#titleCalendar {
     font-size: 20px;
     color: white;
     text-transform: uppercase;
-    background-color: rgba(24,20,20,0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     border: black 1px solid;
     letter-spacing: 2px;
     font-family: 'Montserrat Light';
     padding: 20px;
-  }
-}
-
-#titleCalendar {
-  font-size: 20px;
-  color: white;
-  text-transform: uppercase;
-  background-color: rgba(0,0,0,0.95);
-  border: black 1px solid;
-  letter-spacing: 2px;
-  font-family: 'Montserrat Light';
-  padding: 20px;
 }
 
 @media (min-width: 992px) {
-  #titleCalendar {
-    font-size: 50px;
-    color: white;
-    text-transform: uppercase;
-    background-color: rgba(24,20,20,0.9);
-    border: black 1px solid;
-    letter-spacing: 5px;
-    font-family: 'Montserrat Light';
-    padding: 1rem;
-  }
+    #titleCalendar {
+        font-size: 50px;
+        color: white;
+        text-transform: uppercase;
+        background-color: rgba(24, 20, 20, 0.9);
+        border: black 1px solid;
+        letter-spacing: 5px;
+        font-family: 'Montserrat Light';
+        padding: 1rem;
+    }
 }
 
 .footer-dark {
-  padding-bottom: 8rem;
-  color: #f0f9ff;
-  background-color: #1b1b1b;
+    padding-bottom: 8rem;
+    color: #f0f9ff;
+    background-color: #1b1b1b;
 }
 
 .footer-dark h3 {
-  margin-top: 0;
-  margin-bottom: 12px;
-  font-weight: bold;
-  font-size: 16px;
-  padding-top: 2rem;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 2rem;
 }
 
 .footer-dark ul {
-  padding: 0;
-  list-style: none;
-  line-height: 1.6;
-  font-size: 14px;
-  margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
 }
 
 .footer-dark ul a {
-  color: inherit;
-  text-decoration: none;
-  opacity: 0.6;
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
 }
 
 .footer-dark ul a:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 @media (max-width:767px) {
-  .footer-dark .item:not(.social) {
-    text-align: center;
-    padding-bottom: 20px;
-  }
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
 }
 
 .footer-dark .item.text {
-  margin-bottom: 36px;
+    margin-bottom: 36px;
 }
 
 @media (max-width:767px) {
-  .footer-dark .item.text {
-    margin-bottom: 0;
-  }
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
 }
 
 .footer-dark .item.social {
-  text-align: center;
+    text-align: center;
 }
 
 .footer-dark .item.text p {
-  opacity: 0.6;
-  margin-bottom: 0;
+    opacity: 0.6;
+    margin-bottom: 0;
 }
 
 @media (max-width:991px) {
-  .footer-dark .item.social {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
     text-align: center;
-    margin-top: 20px;
-  }
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
 }
 
-.footer-dark .item.social > a {
-  font-size: 20px;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
-  margin: 0 8px;
-  color: #fff;
-  opacity: 0.75;
-}
-
-.footer-dark .item.social > a:hover {
-  opacity: 0.9;
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
 }
 
 .footer-dark .copyright {
-  text-align: center;
-  padding-top: 24px;
-  opacity: 0.3;
-  font-size: 9px;
-  margin-bottom: 0;
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 9px;
+    margin-bottom: 0;
 }
 
-.footer-dark .item.social > a:hover {
-  opacity: 0.9;
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("24.svg");
+    background-image: url("24.svg");
 }
 
 @media (min-width:768px) {
-  .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-    padding: 2rem;
-  }
+    .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        padding: 2rem;
+    }
 }
 
 .bbCardDesignBorder {
-  border: 1px solid rgb(145,145,145);
-  border-radius: 0px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 0px;
 }
 
-.bbCards-3 {
-}
+.bbCards-3 {}
 
 .currentDate {
-  text-align: center;
-  padding: 1rem;
-  text-transform: uppercase;
-  margin: 2rem;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin: 2rem;
 }
 
 #welcomeHeading {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 3rem;
-  color: rgb(255,255,255);
-  background-color: black;
-  padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 5px;
 }
 
 #welcomeHeadingsmall {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: 5px;
-  color: rgb(255,255,255);
-  background-color: black;
-  display: inline;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    display: inline;
 }
 
 .cardImg {
-  width: 100%;
+    width: 100%;
 }
 
 .cardTextBody {
-  text-align: center;
-  padding-top: 1rem;
-  color: white;
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
 }
 
 .cardHeading {
-  font-size: 1.5rem;
-  margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .cardTextBody {
-  font-size: 0.9rem;
+    font-size: 0.9rem;
 }
 
 .carddivButton {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 #cardsArtists {
-  margin-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 
-.btn-primary.focus, .btn-primary:focus {
-  color: #fff;
-  background-color: #000000;
-  border-color: #ffffff;
-  background-color: black;
-  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+.btn-primary.focus,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #000000;
+    border-color: #ffffff;
+    background-color: black;
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5);
 }
 
 .btn {
-  display: inline-block;
-  font-weight: 400;
-  color: #212529;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: white;
-  border: 1px solid transparent;
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: white;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .btn-primary:hover {
-  color: #ffffff;
-  background-color: #000000;
-  border-color: #000000;
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
 }
 
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    color: #393939;
+    background-color: #fff;
+    text-transform: uppercase;
+    background-clip: padding-box;
+    border: 1px solid #e0e0e0;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
